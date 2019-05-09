@@ -34,4 +34,37 @@
             Aktualizálás, javítások.
         </revremark>
     </revision>
+    
+    <revision>
+        <revnumber>0.0.5</revnumber>
+        <date>2019-02-27</date>
+        <authorinitials>nbatfai</authorinitials>
+        <revremark>
+            Első fejezet kész
+        </revremark>
+    </revision>
+    <revision>
+        <revnumber>0.0.4</revnumber>
+        <date>2019-03-03</date>
+        <authorinitials>nbatfai</authorinitials>
+        <revremark>
+            Második fejezet kész
+        </revremark>
+        <revision>
+        <revnumber>0.0.4</revnumber>
+        <date>2019-03-10</date>
+        <authorinitials>nbatfai</authorinitials>
+        <revremark>
+            Harmadik fejezet kész
+        </revremark>
+            <revision>
+        <revnumber>0.0.4</revnumber>
+        <date>2019-02-19</date>
+        <authorinitials>nbatfai</authorinitials>
+        <revremark>
+            Aktualizálás, javítások.
+        </revremark>
+    </revision>
+    </revision>
+    </revision>
 </revhistory>
