@@ -80,7 +80,10 @@ A main függvényben deklarálunk és végrahajtjuk a beolvasást, majd a kulcs 
         <para>
             Tanulságok, tapasztalatok, magyarázat...: Ez a program létrehoz egy neurális hálót, ami alapvető logikai műveleteket hajt végre, mint például or, and és exor. A műveletek naggyából egy mintára épül, ahol megadjuk a bemenet alapján a neuralnet függvénnyel, hogy milyen eredményhez kell közelítenie a thresholdon belül. A prot függvénnyel kirajzoljuk az eredményt.
 
-        </para>            
+        </para>  
+        <para>
+            A feladatban segített: Nyitrai Dávid
+            </para>
     </section>        
     <section>
         <title>Hiba-visszaterjesztéses perceptron</title>
