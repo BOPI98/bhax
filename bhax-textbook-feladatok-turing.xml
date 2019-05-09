@@ -186,6 +186,9 @@ false]]></screen>
             Tanulságok, tapasztalatok, magyarázat... :
 	A programban létre kell hozni egy screen-t, és ezen fogjuk elhelyezni a pattogó labdát. Deklarálunk egy növekvő értéket és x, y koordinátákat. Végtelen ciklusban léptetjük a labdát és ha a screen szélére ér, akkor negatív növekvő értékre váltunk. Minden alkalommal clear-elni és usleep-elni kell a programot a ciklusban. 
         </para>
+	    <para>
+            Ebben a feladatban segítettem Nyitrai Dávidot
+            </para>
     </section>                     
 
     <section>
@@ -210,6 +213,9 @@ false]]></screen>
 
 A bogomips programban egy delay függvényre lesz szükség ami bevesz egy loop számot és ennyiszer lefuttat egy üres ciklust. Majd a main függvényben deklaráljuk a loop/sec változót és a tick-et. Egy while ciklusban addig fut a ciklusmag amíg bitshifttel 0-t nem kapunk a loop/sec-ből. A ciklusmagban kiszámítjuk az órajel külünbséget a delay függvény meghívása után. Majd kifejezzük és kiiratjuk a loop_per_sec értékét. Ha hamis érték tér vissza, failed-et ír ki a program.
         </para>
+	    <para>
+            Ebben a feladatban segítettem Nyitrai Dávidot
+            </para>
     </section>                     
 
     <section>
