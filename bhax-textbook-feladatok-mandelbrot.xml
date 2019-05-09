@@ -94,7 +94,11 @@ Ez a feladat ugyan az mint az előző csak itt nem struktúrát hozunk létre a 
     <section>
         <title>Mandelbrot nagyító és utazó Java nyelven</title>
         <para>
+		forrás: xlink:href="https://github.com/BOPI98/BHAX_feladatok/blob/master/nagyitoutazo.java">https://github.com/BOPI98/BHAX_feladatok/blob/master/nagyitoutazo.java</link>
         </para>
+	<para>
+		magyarázat: A programban egy guival fog működni a nagyító, amit egy konstruktor osztályban hozunk létre. Ennek paramétereit megadjuk méret és annak méretezésével, majd egy kontroll objektumot hozunk létre. A plotPoints-al kiszámoljuk a halmaz elemeinek értékeit, a actionPerformed-del pedig a felhasználói interakciót vezethetünk be.
+		</para>
     </section>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 </chapter>                
