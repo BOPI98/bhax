@@ -53,7 +53,10 @@
         </para>
         <para>
             Tanulságok, tapasztalatok, magyarázat... : A feladat lényege, hogy egy olyan programot írjunk, amely folyanatosan fut és 0%-ban, 100%-ban lefoglal egyet és 100%-ban lefoglal minden processzor magot. Ezt egy olyan ciklusba kell foglalni melynek feltétele mindig igaz lesz, ezáltal végtelen köröket fog futni a program. A for ciklus három kifejezését üresen hagyjuk, mivel sem deklaráció, sem feltétel, sem ciklus végi művelet nem lesz. A ciklus így a végtelenségig fog futni. A minden magot lefoglaló programhoz szükséges az omp.h header és a main-be a #pragma omp parallel sor. A fordításhoz -fopenmp kapcsoót kell használni (ha többször írjuk be a kapcsolót a fordításhoz egyel több magot fog lefoglalni).
-        </para>            
+        </para> 
+	    <para>
+            Ebben a feladatban segítettem Nyitrai Dávidot
+            </para>
     </section>        
         
     <section>
