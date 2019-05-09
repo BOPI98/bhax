@@ -138,7 +138,7 @@ false]]></screen>
             függvényt, azaz a T100 program nem is létezik.                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...: Mivel minden esetben lefagy a program, ezért nem létezik olyan program, ami el tudja dönteni egy programról, hogy van-e benne vételen ciklus.
+            Tanulságok, tapasztalatok, magyarázat...: Mivel minden esetben lefagy a program, ezért nem létezik olyan program, ami el tudja dönteni egy programról, hogy van-e benne vételen ciklus. A valódi kérdés az a végtelen ciklus detektálásában van, amit Turing 1936-ban állapított meg, hogy nem lehetséges.
         </para>
     </section>        
                 
