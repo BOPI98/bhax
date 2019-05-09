@@ -392,7 +392,7 @@ $(\exists y \forall x (y<x) \supset \neg (x \text{ prím}))$
 
 </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...: Az első kettő sor könnyen lefut, a harmadik viszont nem tud, mert referenciát nem tudunk c-ben deklarálni. A negyedik egy sima egész tömb. Az ötödikben hasonlóan a hármashoz referencia miatt nem fut le a kód. A hatodik, hetedik vagyis egy egészre mutató tömb és egy egészre mutató mutatót visszaadó függvény gond nélkül lefut. A nyolcadik egészre mutatóra mutatót visszaadó függvényre mutató mutató is lefut. A kilencedik tizedik csipetben függvénymutató egy egészet visszaadó és két egészet kapó függvényre mutató mutatót visszaadó, egészet kapó függvényt és egy egészet visszaadó és két egészet kapó függvényre mutató mutatót visszaadó, egészet kapó függvényt bevezettem.
+            Tanulságok, tapasztalatok, magyarázat...: Az első kettő sor könnyen lefut, a harmadik viszont nem tud, mert referenciát nem tudunk c-ben deklarálni. A negyedik egy sima egész tömb. Az ötödikben hasonlóan a hármashoz referencia miatt nem fut le a kód. A hatodik, hetedik vagyis egy egészre mutató tömb és egy egészre mutató mutatót visszaadó függvény gond nélkül lefut. A nyolcadik egészre mutatóra mutatót visszaadó függvényre mutató mutató is lefut. A kilencedik tizedik csipetben függvénymutató egy egészet visszaadó és két egészet kapó függvényre mutató mutatót visszaadó, egészet kapó függvényt bevezettem egy programba.
         </para>
     </section>                     
 
