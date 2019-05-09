@@ -6,7 +6,7 @@
         </keywordset>
     </info>
     <section>
-        <title><type>int ***</type> háromszögmátrix</title>
+        <title><type>double **</type> háromszögmátrix</title>
         <para>
            
         </para>
@@ -32,7 +32,7 @@
             Megoldás forrása:<link xlink:href="https://github.com/BOPI98/BHAX_feladatok/blob/master/exort.c">https://github.com/BOPI98/BHAX_feladatok/blob/master/exort.c</link>
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...: A programban define-oljuk a buffer méretet, és a max kulcsméretet, majd a main függvényben kulcsot és buffert deklarálunk. Utána while ciklusban a beolvasott adattal lefuttatjuk a for ciklusban lévő titkosítást.
+            Tanulságok, tapasztalatok, magyarázat...: A programban define-oljuk a buffer méretet, és a max kulcsméretet, majd a main függvényben kulcsot és buffert deklarálunk. Utána while ciklusban a beolvasott adattal lefuttatjuk a for ciklusban lévő titkosítást. A programban ellenőrzni az atgumentum mennyiséget, hogy kettő-e. Ez a helytelen input megelőzése miatt van. Hiba esetén errorral kilép a program. Ha sikeres akkor megtörténik a beolvasás és lefut az exor. Ha ezzel végzett, akkor helyes lefutást jelezve kilép a program.
         </para>            
     </section>        
     <section>
