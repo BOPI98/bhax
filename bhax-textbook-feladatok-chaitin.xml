@@ -29,6 +29,9 @@ A program végén bekérjük az x-et és lefut a függvény.
 <para>
 rekurzív: A program elején ismét faktoriális függényt hozok létre, ami rekurzív módon számít. A függvény teszteli, hogy az x 1-e ha igen akkor visszatér 1 eredménnyel, de ha nagyobb akkor a sum értéke x*factorial(x-1) lesz. A függvény után 5re lefut a program.
 </para>
+        <para>
+            Ebben a feladatban segített: Nyitrai Dávid
+            </para>
     </section>        
 <!--        
     <section>
