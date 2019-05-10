@@ -17,6 +17,10 @@
         <para>
             Megoldás forrása: <link xlink:href="https://gitlab.com/nbatfai/bhax/tree/master/attention_raising/Myrmecologist">https://gitlab.com/nbatfai/bhax/tree/master/attention_raising/Myrmecologist</link>               
         </para>
+	    <para>
+		    xlink:href="https://github.com/BOPI98/BHAX_feladatok/blob/master/diagram.png">https://github.com/BOPI98/BHAX_feladatok/blob/master/diagram.png</link>
+		    
+		    </para>
         <para>
             Tanulságok, tapasztalatok, magyarázat...: A hangyaszimulációs program egy qt-vel létrehozott program ami egy grafikus felületet alkot. Ebben a grafikus felületben fog a program végrehajtódni és a megalkotott algoritmus szerint működni. A program áll egy hangya részből, ami koordinátát tárol és a hangya írányát. Aztán az antthread programmal határozzuk meg a hangyák mozgását és irányát a képernyőn. Az antwin programrészben hozzátesszük a program végét meghatározó eseményeket és a szüneteltetést. A main program össszefoglalja a fő programot majd qt-val létrehozzuk a futtatható programot.
 
