@@ -73,7 +73,7 @@ Magyarázat: Ebben a forrásban le van írva a három féle bejárási módszer.
             Megoldás forrása: <link xlink:href="https://github.com/BOPI98/BHAX_feladatok/blob/master/lzwt.cpp">https://github.com/BOPI98/BHAX_feladatok/blob/master/lzwt.cpp</link>
         </para>
 <para>
-A program úgy épül fel hogy egy headerből hívja meg az osztályt és úgy futtatja le a binfa algoritmust. Ez által külön külön váltztatható az alprogram.
+A program a harmadik feladat megoldásához hasonló, annyi különbséggel, hogy a binfa kezelőfüggvényeket és eljárásokat a binfa osztályában találjuk meg, majd a node struktúra egy privát részét alkotja az osztálynak. A túlterhelt balra bitshift operátor ellátja a binfa építését, ez hasonlít az insert_tree eljáráshoz.
 </para>
     </section>        
                 
@@ -92,7 +92,7 @@ A program úgy épül fel hogy egy headerből hívja meg az osztályt és úgy f
 <para>
 </para>
 	<para>
-	A programban létre van hozva egy osztályban a mutató gyökér.
+	A program az ezt megelőző programon alapul, a külünbség az, hogy a gyökérelemre egy mutatóval mutatunk és egy konstruktorral létre kell hozni a gyökérobjektumot. Ott ahol a gyökérelem referenciáját adta át a függvénynek a program, ott már a gyökérnek az elemét kell átadni a referencia helyett.
 	</para>
     </section>                     
 

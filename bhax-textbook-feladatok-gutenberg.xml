@@ -58,7 +58,19 @@ A kivétel kezelés egy olyan funkció, amellyel kivételek bekövetkezése eset
 
 </para>
 <para>
-1. 
+1. Milyen beépített kivételek vannak a nyelvben? :Lehet alapvető matematikai ellentmondás, memóriaeléréssel kapcsolatos hiba.
+</para>
+<para>
+2. Definiálhat-e programozó saját kivételt? :Igen.Minden programhoz lehet saját kivételeket definiákni.
+</para>
+<para>
+3. Milyenek a kivételkezelő hatásköri szabályai? Abban a hatáskörben működik a kivételkezelő, amelyikben az meg lett hívva.
+</para>
+<para>
+4. Hogyan folytatódik a program a kivételkezelés után? Az attól függ, hogy milyen hibát talál. Van amitől le kell, hogy álljon, viszont van, ahol kezelés után futhat tovább.
+</para>
+<para>
+5. Van-e a nyevlben beépített kivételkezelő? Igen, az első válasz példáival.
 </para>
 <para>
 11.hét(pici könyv 2): 38
@@ -100,19 +112,116 @@ Az objektum orientáltság alapelvei rávilágítanak egy tisztább, rendezetteb
 </para>
 <para>
 7. hét(BME C++)
-93-96 17-59 
+ 
 C-ben az operátorok feladata, hogy argumentumok műveleteit végezze el, az eredményt visszatérési értékkel kapjuk meg. Operátorok közötti prioritás szabályrendszer szerint dől el. Ha egyenrangú operátotokkal dolgozunk ajánlott zároójelek használata bizonyos helyzetekben. Az operátor és a függvény nem azonos mivel a függvény nem képes mellékhatásokra az érték szerinti paraméterátadás miatt. 
 </para>
 <para>
 8. hét(BME C++)
-217-220 223-230 
+
 A sablon egy olyan osztálysablon, vagy függvénysablon amelyet paraméterként használunk. Ennek az az értelme, hogy akármilyen típusú elemet lehet tárolni a sablonban. Ha például egy rendezést akarunk végrehajtani több féle típussal, akkor elég a sablon paramétereket használva tudunk akár karaktereket, egész számokat, vagy double-t is rendezni egy függvénnyel. A sablonparaméter típuson kívül lehet még típusos konstans, melyet például square függvényhez lehet hasznosítani. A square csak konstans paraméterrel működik, mivel a sablonnak a kifejtése fordítás közben történik. A square függvény használata kevesebb forítási időt igényel. Az intfifo osztályt osztálysablonná úgy lehet átalakítani, hogy template classként definiáljuk az osztályt, ezzel jelezzük a fordítónak, hogy ez nem közönséges osztály. Ezután sablonparamétert kell bevezetni. Az osztálynevek helyett osztálynév és sablonparaméterek szerepeltetését kell megvalósítani.
 </para>
 <para>
 11.hét(BME C++): 
- 190pl 197pl 211pl
+ 
 A hagyományos hibakezelés alapjait részletezve hívási láncok szemléltetését mutatja be a fejezet első részében a könyv. Egy programban a main függvényben hibakezelést láthatunk, ebből arra következtetünk, hogy hátrányos hibakódokra épülő megoldást használni. A következő részben a kivételkezelés alapjairól tudhatunk meg többet. A programrész szemléltet egy olyan eljárási módot ahol, ha a program talál egy hibát, azonnal a hibakezelő részre ugorjon. Ha kivételezve van akkor a kivételkezelőre ugorjon. Ezután pontokba összeszedve láthatjuk a kivételkezelés mechanizmusainak alapjait. A következő részben egymásba ágazott try-catch blokkokról olvashatunk, amiből megtudhatjuk, hogy így több szinten tudjuk kezelni a kivételeket. Az ezt követő részben az újradobásról van szó, amelyet kódcsipettel szemléltet.
 
+</para>
+<para>
+<programlisting><![CDATA[Egy példa a kivételkezelésre:
+    #include <iostream>
+    usning namespace std;
+    int main()
+    {
+      try
+      {
+        double d;
+        cout << "Enter a nonzero number: ";
+        cin >> d;
+        if(d == 0)
+        {
+         throw "The number can no be zero.";         
+        }
+        cout << "The reciprocal is: " << 1/d << endl;
+      }
+      catch (const char* exc)
+      {
+        cout << "Error! The error text is: " << exc << endl;
+      }
+      cout << "Done." << endl;
+    }        
+]]></programlisting>
+</para>
+<para>
+A bekért számot a d-ben tároljuk el, majd ezt ellenőrizzük, hogy nem-e nulla. Ha a d változó értéke egyenő nuléűval akkor a throw-val hibát dob ki a program. Viszont ha ez nem teljesül, megy tovább a program, meghatározzuk a reciprokot és kiiratjuk. A throw általi hibát catchel el lehet kapni és az if-ben megadott mondatot kiírjuk.
+</para>
+
+
+<para>
+<programlisting><![CDATA[A verem visszacsévélése:
+    int main()
+    {
+     try
+     {
+       f1();
+     }
+     catch(const char* errorText)
+     {
+       cerr << errotext << endl;
+     }
+    }
+    void f1()
+    {
+      Fifo fifo; //a fifo egy általunk megírt osztály
+      f2();
+      ...
+    }    
+    void f2()
+    {
+      int i = 1;
+      throw "error1";
+    }    
+]]></programlisting> 
+
+</para>
+
+<para>
+A try-catch blockot egymásba lehet ágyazni, melyenek lényege, hogy egy adott kivételeket alacsonyabb szinten kezeljünk. Az elkapott kivételt újra lehet dobni throw-val. Visszacsévelés az amikor egy kivétel dobásánál annak elkapásáig a függvények hívási láncában a függvényeknek a lokális változói felszabadulnak felfelé haladva.
+</para>
+
+<para>
+<programlisting><![CDATA[Erőforrás kezelés:
+    class MessageHandler
+    {
+     public:
+        void ProcessMessage(istream& is)
+        {
+          Message *pMessage;
+          //Következő üzenet beolvasása.
+          while((pMessage = readNextMessage(is)) != NULL)
+          {
+            try
+            {
+              //Kivételt dobhat!
+              pMessage->Process();
+              // ...
+              // Ha végeztünk, felszabadítjuk a Message objektumot.
+              delete pMessage;
+            }
+            catch(...)
+            {
+              delete pMessage;
+              throw;
+            }
+          }
+        }
+     private:
+       Message* readNextMessage(istream& is)
+       {   ... }
+    };
+]]></programlisting> 
+</para>
+<para>
+A program egy bemeneti fájlból olvas be üzeneteket egy osztály segítségével. Ebben az osztályban egy tagfüggvény addig olvassa be az objektumokat ameddig null-ra nem tér vissza. Miután az olvasó függvény beolvassa az üzenetet, majd az objektum feldolgozta az üzenetet, az üzenet objektumja felszabadul. Ha ilyenkor a feldolgozó objektum kivételbe ütközik, akkor nem szabadul fel az üzenet objektum. Ezt a problémát tudjuk orvosolni try-catch-el, elkapjuk a kivételt és felszabadítjuk a lefoglalt memóriát, majd újradobjuk a kivételt.
 </para>
     </section>        
 </chapter>                

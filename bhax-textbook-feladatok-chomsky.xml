@@ -388,10 +388,10 @@ $(\exists y \forall x (y<x) \supset \neg (x \text{ prím}))$
             Megoldás videó: 
         </para>
         <para>
-            Megoldás forrása:  <link  xlink:href="https://github.com/BOPI98/BHAX_feladatok/blob/master/dek.c">https://github.com/BOPI98/BHAX_feladatok/blob/master/dek.c</link> 
-		xlink:href="https://github.com/BOPI98/BHAX_feladatok/blob/master/dek2.c">https://github.com/BOPI98/BHAX_feladatok/blob/master/dek2.c</link>
-	    <link xlink:href="https://github.com/BOPI98/BHAX_feladatok/blob/master/dek3.c">https://github.com/BOPI98/BHAX_feladatok/blob/master/dek3.c</link>
-	<link  xlink:href="https://github.com/BOPI98/BHAX_feladatok/blob/master/dek4.c">https://github.com/BOPI98/BHAX_feladatok/blob/master/dek4.c</link>
+            Megoldás forrása:  <link xlink:href="https://github.com/BOPI98/BHAX_feladatok/blob/master/dek.c">https://github.com/BOPI98/BHAX_feladatok/blob/master/dek.c</link> 
+		<link xlink:href="https://github.com/BOPI98/BHAX_feladatok/blob/master/dek2.c">https://github.com/BOPI98/BHAX_feladatok/blob/master/dek2.c</link>
+	    <link xlink:href="https://github.com/BOPI98/BHAX_feladatok/blob/master/dek3.c">https://github.com/BOPI98/BHAX_feladatok/blob/master/dek3.c</link> 
+	<link xlink:href="https://github.com/BOPI98/BHAX_feladatok/blob/master/dek4.c">https://github.com/BOPI98/BHAX_feladatok/blob/master/dek4.c</link> 
 
 </para>
         <para>
