@@ -18,14 +18,24 @@
             Megfigyelhetjük, hogy a Java main függvénye egy void, melynek paraméterei string-ben vannak megadva, ezzel ellentétben a C++ kód egy 
             int visszatérő értékű main függvénnyel rendelkezik és karaktertömbben vannak a paraméterek tárolva.
             
+      </para>
+        <para>
+            
             Java-ban vannak primitív és nem primitív típusok. A kettő között az a különbség, hogy a primitív az értéket tárolja, a 
             nem primitív pedig egy objektumra hivatkoznak. Egy primitív int-et például lehet Integer csomagoló osztállyal 
             helyettesíteni, amely autómatikusan csomagol be és ki az 5-ös Java verzió óta. Javaban nincs karakter változó, ezért 
             egy beépített String osztályt használunk. A Java-ban a tömbök nem pointerként vannak jelen, mint a C++-ban hanem külön 
             típusként. Mivel típusként vannak jelen, így tartozik hozzá méretlekérdező függvények, így nincs szükség változókra a 
             tárolásához. Java-ban az osztályok class szóval tudjuk deklarálni, melyek az Object osztály leszármazottja, viszont egy 
-            osztályban nem lehetséges többszörös öröklődés. Szülő osztályra referenciával lehet hivatkozni. A másoló konstruktorok 
-            helyettesíthetőek clone metódussal. 
+            osztályban nem lehetséges többszörös öröklődés. Szülő osztályra referenciával lehet hivatkozni. Egy C++ programban 
+            használatos egy destruktor, viszont Java-ban erre nincs szükség. A másoló konstruktorok helyettesíthetőek clone 
+            metódussal. Azok az osztályok támogatják a másolást, melyek a Cloneable interfészt implementálják. Javaban példányosításnál
+            objektumhivatkozást hozunk létre, ami egy objektumra mutat. A Java-ban fontos tény, hogy referenciák vannak, nincsenek 
+            pointerek. Újdonságként jelennek meg a Java-ban a generikusok, melyek a sablon osztályt helyettesítik. 
+            
+            Egy osztály örökölhet tagfüggvényeket a szülőosztályától, egyes esetekben ezeket felül is kell definiálni. Ezt a C++-ban 
+            virtual-lal tudtuk megoldani. 
+            
             
             
             
@@ -37,7 +47,15 @@
         <title>Bevezetés a mobilprogramozásba.
 Gyors prototípus-fejlesztés Python és Java nyelven</title>
         <para>
-            
+            A Pyton nyelvet Guido van Rossum alkotta  meg 1990-ben. A pyton nyelv alapvetően egy könnyen tanulható programozái nyelv ,
+            azonban elég komoly szinteket is el lehet vele érni kezdő szinten is. A nyelv a C++ vagy java-val szemben nincs szükség 
+            fordításra. A forráskódból azonnal képes lefutni, mivel script-nyelv. Prototípusok tesztelésére kiváló lehetőséget nyújt 
+            mellyel c,c++ és java programok funkciók és eljárások tesztelhetőek. A standard pyton kódkönyvtár segítséget nyújt fájlkezelésben
+            , hálózatkezelésben és rendszerhívásokban. Egy pyton programban érdekesség, hogy sor végén nem kell ";"-ot rakni, szintaxisa egyszerű
+            , behúzások alapján választja el a blokkokat. Így kapcsoszárójelekre nincs szükség. Egy hosszú utasításnál, ha nem fér bele a kód 
+            egy sorba, akkor "\"-el ezt lehet jelölni. 
+            A C++,C, java nyelvekhez hasonlóan az adatokat opjektumok reprezentálják és az azokon végrehajtható műveletek az objektum 
+            típusától függenek. 
             
             
         </para>
