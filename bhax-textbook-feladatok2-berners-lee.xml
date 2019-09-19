@@ -34,7 +34,7 @@
             pointerek. Újdonságként jelennek meg a Java-ban a generikusok, melyek a sablon osztályt helyettesítik. 
             
             Egy osztály örökölhet tagfüggvényeket a szülőosztályától, egyes esetekben ezeket felül is kell definiálni. Ezt a C++-ban 
-            virtual-lal tudtuk megoldani. 
+            virtual-lal tudtuk megoldani. A többitől eltér abban, hogy nem szükséges az objektum típusát explicit módon megadni.
             
             
             
