@@ -22,7 +22,10 @@
             nem primitív pedig egy objektumra hivatkoznak. Egy primitív int-et például lehet Integer csomagoló osztállyal 
             helyettesíteni, amely autómatikusan csomagol be és ki az 5-ös Java verzió óta. Javaban nincs karakter változó, ezért 
             egy beépített String osztályt használunk. A Java-ban a tömbök nem pointerként vannak jelen, mint a C++-ban hanem külön 
-            típusként. 
+            típusként. Mivel típusként vannak jelen, így tartozik hozzá méretlekérdező függvények, így nincs szükség változókra a 
+            tárolásához. Java-ban az osztályok class szóval tudjuk deklarálni, melyek az Object osztály leszármazottja, viszont egy 
+            osztályban nem lehetséges többszörös öröklődés. Szülő osztályra referenciával lehet hivatkozni. A másoló konstruktorok 
+            helyettesíthetőek clone metódussal. 
             
             
             
