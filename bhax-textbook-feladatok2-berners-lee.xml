@@ -9,8 +9,23 @@
     <section>
         <title>C++ és Java összehasonlítása (Szoftverfejlesztés C++ nyelven, Java 2 útikalauz programozóknak)</title>
         <para>
+           A Java és a C++ két különböző fordítási metódussal fut le. A Java egy interpreterrel hoz létre a Java Virtual Machine számára 
+            kezelhető kódot. A C++ pedig egy forrás kódból fordít le egy futtatható gépi kódot. A java előnye ezzel szemben az, hogy 
+            a Java Virtual Machine bármiylen platformon le tudja futtatni ugyan azt a kódot, nem úgy mint a C++.
             
-
+            Egy C++ és egy Java program felépítése meglehetősen különbözik. Egy Java kód main függvénye egy main class-ban van rendezve, hiszen
+            a metódusoknak és változóknak egy osztályhoz kell tartoznia, egy C++ programban pedig egy main fájl tartalmazza a main függvényt. 
+            Megfigyelhetjük, hogy a Java main függvénye egy void, melynek paraméterei string-ben vannak megadva, ezzel ellentétben a C++ kód egy 
+            int visszatérő értékű main függvénnyel rendelkezik és karaktertömbben vannak a paraméterek tárolva.
+            
+            Java-ban vannak primitív és nem primitív típusok. A kettő között az a különbség, hogy a primitív az értéket tárolja, a 
+            nem primitív pedig egy objektumra hivatkoznak. Egy primitív int-et például lehet Integer csomagoló osztállyal 
+            helyettesíteni, amely autómatikusan csomagol be és ki az 5-ös Java verzió óta. Javaban nincs karakter változó, ezért 
+            egy beépített String osztályt használunk. A Java-ban a tömbök nem pointerként vannak jelen, mint a C++-ban hanem külön 
+            típusként. 
+            
+            
+            
         </para>
       
     </section>        
