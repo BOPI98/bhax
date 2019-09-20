@@ -60,7 +60,10 @@ Gyors prototípus-fejlesztés Python és Java nyelven</title>
             A változók objektumra mutató referenciák. A pytonban ha egy objektumot és hivatkozását törlünk, egy garbage 
             collector felszabadítja az annak lefoglalt helyet. Ugyanúgy mint más nyelvben, a pytonban is megtalálhatóak a 
             megszokott cilusok, if elágazások. A nyelvben szintén elérhető a goto funkció, amely az adott label-ekhez ugrik.
-            Kivételkezelést is tartalmaz a nyelv, mint például a try, except vagy raise.
+            Kivételkezelést is tartalmaz a nyelv, mint például a try, except vagy raise. A pyton fejlesztéseket megkönnyítő modulokat 
+            tartalmaz, ezek között rengeteg olyan van melyek a mobil fejlesztést segítik. Felhasználói felület kezelését biztosítja, 
+            hálózatkezelést segíti és kamera is elérhető. A sysinfo modullal a telefon adatait lekérdezhetjük, audio modul segítségével 
+            pedig hangfelvételeket hozunk létre. Ezek mellett saját modult is létrehozhatunk melyet a programunkba importálhatunk.
             
             
         </para>
