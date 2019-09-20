@@ -53,9 +53,14 @@ Gyors prototípus-fejlesztés Python és Java nyelven</title>
             mellyel c,c++ és java programok funkciók és eljárások tesztelhetőek. A standard pyton kódkönyvtár segítséget nyújt fájlkezelésben
             , hálózatkezelésben és rendszerhívásokban. Egy pyton programban érdekesség, hogy sor végén nem kell ";"-ot rakni, szintaxisa egyszerű
             , behúzások alapján választja el a blokkokat. Így kapcsoszárójelekre nincs szükség. Egy hosszú utasításnál, ha nem fér bele a kód 
-            egy sorba, akkor "\"-el ezt lehet jelölni. 
-            A C++,C, java nyelvekhez hasonlóan az adatokat opjektumok reprezentálják és az azokon végrehajtható műveletek az objektum 
-            típusától függenek. 
+            egy sorba, akkor "\"-el ezt lehet jelölni. A megjegyzések # karakterrel működnek, ami a sor végéig hat.
+            Tokeneknek négy különböző fajtája van, azonosító, kulcsszó, delmiter és literál
+            A C++,C, java nyelvekhez hasonlóan az adatokat objektumok reprezentálják és az azokon végrehajtható műveletek az objektum 
+            típusától függenek. A pyronban adattípusok lehetnek számok logikai értékek, halmazok, listák, stringek, szótárak.
+            A változók objektumra mutató referenciák. A pytonban ha egy objektumot és hivatkozását törlünk, egy garbage 
+            collector felszabadítja az annak lefoglalt helyet. Ugyanúgy mint más nyelvben, a pytonban is megtalálhatóak a 
+            megszokott cilusok, if elágazások. A nyelvben szintén elérhető a goto funkció, amely az adott label-ekhez ugrik.
+            Kivételkezelést is tartalmaz a nyelv, mint például a try, except vagy raise.
             
             
         </para>
