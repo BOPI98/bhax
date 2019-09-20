@@ -48,7 +48,7 @@ Miután már áttettük Java nyelvre, tegyük be egy Java Servletbe és a böng�
         <title>"Gagyi"</title>
         <para>
             Az ismert formális2
-„while (x <= t && x >= t && t != x);” tesztkérdéstípusra adj a szokásosnál
+<![CDATA[„while (x <= t && x >= t && t != x);”]]> tesztkérdéstípusra adj a szokásosnál
 (miszerint x, t az egyik esetben az objektum által hordozott érték, a másikban meg az objektum
 referenciája) „mélyebb” választ, írj Java példaprogramot mely egyszer végtelen ciklus, más x, t
 értékekkel meg nem! A példát építsd a JDK Integer.java forrására3
