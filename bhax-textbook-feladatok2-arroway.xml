@@ -79,7 +79,12 @@ conditions-t! https://en.wikipedia.org/wiki/Yoda_conditions
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat... : A yoda stílusban íródott kódban az a lényeg, hogy egy kifejezésben 
+            meg vannak cserélve a tagok. Általába ez nem a megszokott módon szokott kinézni ezért ilyen érdekes vagy különleges. 
+            Az elnevezése a Star Wars univerzumból ismert karakterről kapta a nevét, azért mert ő is hasonlóképpen alkotta a 
+            mondatait. A mondatokat mindig tárggyal kezdte és utána az alany állítmányt. Ez a beszédstílusa azonban inkább 
+            az angol verzióban érezhető, mivel a magyar nyelvű filmekben más a szinkron. Ennek a stílusnak nem igazán van sok 
+            előnye viszont kritikusok szerint elég rosszul olvasható és értelmezhető egy ilyen kód. 
         </para>
     </section>
     
