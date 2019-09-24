@@ -15,7 +15,7 @@
         </para>
         
         <para>
-            Megoldás forrása:    https://arato.inf.unideb.hu/batfai.norbert/UDPROG/deprecated/Prog1_5.pdf (16-22 fólia)
+            Megoldás forrása:    <link xlink:href="https://arato.inf.unideb.hu/batfai.norbert/UDPROG/deprecated/Prog1_5.pdf">link</link> (16-22 fólia)
             
         </para>
         <para>
@@ -76,8 +76,8 @@ conditions-t! https://en.wikipedia.org/wiki/Yoda_conditions
             Megoldás videó:
         </para>
         <para>
-            Megoldás forrása: <xlink:href="https://github.com/BOPI98/prog2_feladatok/blob/master/Yoda.java" 
-                                          https://github.com/BOPI98/prog2_feladatok/blob/master/Yoda.java>
+            Megoldás forrása: <link xlink:href="https://github.com/BOPI98/prog2_feladatok/blob/master/Yoda.java"> 
+                                          https://github.com/BOPI98/prog2_feladatok/blob/master/Yoda.java</link>
         </para>
         <para>
             Tanulságok, tapasztalatok, magyarázat... : A yoda stílusban íródott kódban az a lényeg, hogy egy kifejezésben 
