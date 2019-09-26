@@ -142,8 +142,15 @@ példányokat poolozza!
             Megoldás videó:
         </para>
         <para>
-            Megoldás forrása:                
+            Megoldás forrása:  <link xlink:href="https://github.com/BOPI98/prog2_feladatok/blob/master/Gagyi.java "> 
+                                          https://github.com/BOPI98/prog2_feladatok/blob/master/Gagyi.java  </link>
+                         
         </para>
+        <para>
+            <link xlink:href="https://github.com/BOPI98/prog2_feladatok/blob/master/Gagyi_vegtelen.java"> 
+                                          https://github.com/BOPI98/prog2_feladatok/blob/master/Gagyi_vegtelen.java </link>
+            
+            </para>
         <para>
             Tanulságok, tapasztalatok, magyarázat... : A felaladat alapvetően egy argumentumra épül, ami egy 
             while feltételében ciklusban található. A program lényege, hogy ugyanazzal a ciklussal tudjunk egy 
