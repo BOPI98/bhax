@@ -108,10 +108,22 @@ Miután már áttettük Java nyelvre, tegyük be egy Java Servletbe és a böng�
             Megoldás videó:
         </para>
         <para>
-            Megoldás forrása:                
+            Megoldás forrása:   <link xlink:href="https://github.com/BOPI98/prog2_feladatok/tree/master/scr/servlet "> 
+                                          https://github.com/BOPI98/prog2_feladatok/tree/master/scr/servlet </link>
+            
+                        
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat... : A binfa a könyv az első részének egy feladata amelyről 
+            a részletek megtalálhatóak. C++ nyelvről az átírása abban nyílvánul meg, hogy a pointereket, referenciákat a 
+            java kódból mellőzni kell. Ezek mellett a java kód struktúrájának megfelelően kell a programot átalakítani.
+         </para>
+        <para>
+        A feladat arról szól, hogy a binfát le lehessen kérni böngészőből a GET kéréssel. Ez a Java Servlettel működik eclipse-el és 
+            Tomcat szerverrel. GET-tel létrejön a binfa objektum, az input szövegből elkészül a bemeneti bináris kód és felépül belőle 
+            a fa, ezután a bejárási mód szerint bejárja a fát. Ha a paramétereket nem adtuk meg az elején a program default 
+            adatokkal fogja azokat kitölteni. 
+            
         </para>
     </section>        
         
