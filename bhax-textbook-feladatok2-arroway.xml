@@ -34,7 +34,7 @@
         
         <para>
             main.java:
-            <![CDATA[„package polargen;
+            <programlisting language="java"><![CDATA[package polargen;
 
 import polargen.PolarGen;
 
@@ -49,12 +49,12 @@ public class Main {
             }
         }
     }
-}”]]>
+}]]></programlisting>
             </para>
         
         <para>
             polargen.java:
-            <![CDATA[„package polargen;
+            <programlisting language="java"><![CDATA[„package polargen;
 
 import java.util.Random;
 
@@ -89,7 +89,7 @@ public class PolarGen {
             return storagedNumber;
         }
     }
-}”]]>
+}”]]></programlisting>
             </para>
         
     </section>        
