@@ -133,7 +133,13 @@ példányokat poolozza!
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat... : A felaladat alapvetően egy argumentumra épül, ami egy 
+            while feltételében ciklusban található. A program lényege, hogy ugyanazzal a ciklussal tudjunk egy 
+            végtelen ciklusú programot és egy rendesen lefutót megírni. Ezt az int változó pool-jával értem el
+            ugyanis ha a poolon kívül esik a véltozó értéke akkor a ciklus már végtelen lesz. Azonban ha bele 
+            esik akkor normálisan fut a program. A -128 nál kisebb értékeket már nem tartalmazza a java integer 
+            poolja és ezért ha mind a két változónak ugyan azt az értéket adjuk és lefuttatjuk a programot, 
+            végtelen ciklust fogunk kapni.
         </para>
     </section>
     
@@ -156,7 +162,7 @@ conditions-t! https://en.wikipedia.org/wiki/Yoda_conditions
             Az elnevezése a Star Wars univerzumból ismert karakterről kapta a nevét, azért mert ő is hasonlóképpen alkotta a 
             mondatait. A mondatokat mindig tárggyal kezdte és utána az alany állítmányt. Ez a beszédstílusa azonban inkább 
             az angol verzióban érezhető, mivel a magyar nyelvű filmekben más a szinkron. Ennek a stílusnak nem igazán van sok 
-            előnye viszont kritikusok szerint elég rosszul olvasható és értelmezhető egy ilyen kód. A 
+            előnye viszont kritikusok szerint elég rosszul olvasható és értelmezhető egy ilyen kód.
         </para>
     </section>
     
