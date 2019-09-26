@@ -15,17 +15,21 @@
         </para>
         
         <para>
-            Megoldás forrása:    <link xlink:href="https://arato.inf.unideb.hu/batfai.norbert/UDPROG/deprecated/Prog1_5.pdf">link</link> (16-22 fólia)
+            Megoldás forrása:    <link xlink:href="https://arato.inf.unideb.hu/batfai.norbert/UDPROG/deprecated/Prog1_5.pdf">linkhttps://arato.inf.unideb.hu/batfai.norbert/UDPROG/deprecated/Prog1_5.pdf</link> (16-22 fólia)
             
         </para>
         <para>
-            <link xlink:href="https://github.com/BOPI98/prog2_feladatok/blob/master/Main.java">link</link>
+            <link xlink:href="https://github.com/BOPI98/prog2_feladatok/blob/master/Main.java">linkhttps://github.com/BOPI98/prog2_feladatok/blob/master/Main.java</link>
         </para>
         <para>
              <link xlink:href="https://github.com/BOPI98/prog2_feladatok/blob/master/PolarGen.java">link</link>
             </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat... : 
+            Tanulságok, tapasztalatok, magyarázat... : A program azt csinálja, hogy generál két számot, és ezek közöl az egyiket 
+            eltárolja, a másikat pedig visszaadja. Mivel elsőnek azt vizsgálja, hogy van e már tárolt elem, ezért 
+            kell egy "nincsTárolt" boolean(igaz-hamis értékeket tároló változó). Ha van benne elem akkor egy double-ban eltárolja.
+            Ennek csak annyi az értelme, hogy nem generál új számot, ha már van egy tárolt. A program objektum orientáltan van megírva,
+            ugyanis maga a polargen osztály egy külön "fájlban" van megírva és a main program ezt használja a lefutáshoz.
         </para>
     </section>        
 
