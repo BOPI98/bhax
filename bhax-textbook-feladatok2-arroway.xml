@@ -33,7 +33,7 @@
         </para>
         
         <para>
-            main:
+            main.java:
             <![CDATA[„package polargen;
 
 import polargen.PolarGen;
@@ -53,6 +53,7 @@ public class Main {
             </para>
         
         <para>
+            polargen.java:
             <![CDATA[„package polargen;
 
 import java.util.Random;
