@@ -177,7 +177,8 @@ melyet szeretném, ha átélnél).
             Tanulságok, tapasztalatok, magyarázat... : A BBP vagyis a Bailey-Borwein-Plouffe egy 1995-ben kitalált algoritmus, ami a Pi 
             hexadecimális jegyeinek egy d>0 számjegytől való kiszámolására szolgál. Ez az algoritmus:
             {16dπ} = {4{16dS1} - 2{16dS4} - {16dS5} - {16dS6}}
-            A kód:
+            A kód: <link xlink:href="https://github.com/BOPI98/prog2_feladatok/blob/master/bbp.java"> 
+                                          https://github.com/BOPI98/prog2_feladatok/blob/master/bbp.java</link>
         </para>
     </section>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
