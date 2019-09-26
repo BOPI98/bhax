@@ -31,6 +31,66 @@
             Ennek csak annyi az értelme, hogy nem generál új számot, ha már van egy tárolt. A program objektum orientáltan van megírva,
             ugyanis maga a polargen osztály egy külön "fájlban" van megírva és a main program ezt használja a lefutáshoz.
         </para>
+        
+        <para>
+            main:
+            <![CDATA[„package polargen;
+
+import polargen.PolarGen;
+
+public class Main {
+    public static void main (String args[]) {
+        PolarGen polarGen = new PolarGen();
+        for (int i = 0; i < 10; i++) {
+            try {
+                System.out.println(polarGen.Next());
+            } catch (Exception e) {
+                System.out.println("There is no number");
+            }
+        }
+    }
+}”]]>
+            </para>
+        
+        <para>
+            <![CDATA[„package polargen;
+
+import java.util.Random;
+
+public class PolarGen {
+
+    //Variables
+    private boolean hasStoraged = false;
+    private double storagedNumber;
+
+    
+
+    public double Next() throws NullPointerException {
+        if(!hasStoraged){
+            double u1,u2,v1,v2,w;
+            Random random = new Random();
+            do {
+                u1 = random.nextDouble();
+                u2 = random.nextDouble();
+                v1 = 2 * u1 - 1;
+                v2 = 2 * u2 - 1;
+                w = v1 * v1 + v2 * v2;
+            } while (w > 1);
+
+            double r = Math.sqrt((-2 * Math.log(w))/w );
+            
+            storagedNumber = r * v2;
+            hasStoraged = !hasStoraged;
+
+            return r * v1;
+        } else {
+            hasStoraged = !hasStoraged;
+            return storagedNumber;
+        }
+    }
+}”]]>
+            </para>
+        
     </section>        
 
     <section>
