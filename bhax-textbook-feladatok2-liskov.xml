@@ -52,8 +52,19 @@ keresztül csak az ős üzenetei küldhetőek!
         <para>
             Megoldás forrása: https://arato.inf.unideb.hu/batfai.norbert/UDPROG/deprecated/Prog2_1.pdf (98. fólia)               
         </para>
+        
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+             <link xlink:href="https://github.com/BOPI98/prog2_feladatok/blob/master/szulogyerek.java">linkhttps://github.com/BOPI98/prog2_feladatok/blob/master/szulogyerek.java</link>
+        
+        </para>
+        
+        
+        <para>
+            Tanulságok, tapasztalatok, magyarázat... : Egy programban a szülő osztály metódusai örököltek a gyermek 
+            osztályban, azonban fordítva ez nem lehetséges. Ez a polimorphizmus szabálya miatt van. Ennek a feladatnak 
+            a lényege, hogy ezt demonstráljuk. A program első lépése az, hogy létrehozunk egy szülőnek szánt osztályt
+            egy metódussal. Aztán egy gyerek osztályt amely a szülőből származtatik. Ezt az "extends"-el tudjuk javaban
+            létrehozni. A main függvényben példányosítjuk a szülőn keresztül a gyerek osztályt. 
         </para>
     </section>  
     
