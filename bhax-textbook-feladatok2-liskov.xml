@@ -28,7 +28,13 @@ megoldásra: jobb OO tervezés.
             </para>
         
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat... : Barabara Liskov egy amarikai informatikus volt aki kidolgozta a liskov
+            helyettesítési elvet. Ez az elv arról szól, hogy egy T objektum S altípusát minden olyan helyre behelyettesíthetjük, ahol
+            T szerepel, mindezt a programrész tulajdonságainak megváltoztatásai nélkül. Ezt úgy kell elképzelni, mint például 
+            a madarakat. Ha létre hozunk egy madár típust és a madár tud repülni, akkor az annak egy altípusa, egy sas is tud repülni.
+            Itt következik az elv megsértése, mikor ugyanis egy madarak csoportjába tartozó pingvinre cseréljük ki az altípust. Ezúttal
+            viszont az a probléma, hogy a pingvin nem tud repülni. Ezt a problémár orvosolni tudjuk azzal hogy a madarakat két osztályra 
+            bontjuk, repülésre képes és képtelen madarak típusára.
         </para>
     </section>        
 
