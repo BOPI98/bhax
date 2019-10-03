@@ -82,10 +82,12 @@ https://www.tankonyvtar.hu/hu/tartalom/tkt/javat-tanitok-javat/apas03.html#id561
             Megoldás videó:
         </para>
         <para>
-            Megoldás forrása:              
+            Megoldás forrása: <link xlink:href="https://github.com/BOPI98/prog2_feladatok/blob/master/bbp.c">linkhttps://github.com/BOPI98/prog2_feladatok/blob/master/bbp.c</link>
+                     
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat... : Az előző fejezetben a bbp kód már át van beszélve java-ban. Ebben a 
+            feladatban c, c++ és c# nyelven is le kell tesztelnünk.
         </para>
     </section>  
     
