@@ -87,7 +87,8 @@ https://www.tankonyvtar.hu/hu/tartalom/tkt/javat-tanitok-javat/apas03.html#id561
         </para>
         <para>
             Tanulságok, tapasztalatok, magyarázat... : Az előző fejezetben a bbp kód már át van beszélve java-ban. Ebben a 
-            feladatban c, c++ és c# nyelven is le kell tesztelnünk.
+            feladatban c, c++ és c# nyelven is le kell tesztelnünk. A számításokat a java nyerte nagy fölénnyel, az eredmény
+            224.652 volt, amíg a c++ már 274.561 eredményt adott.
         </para>
     </section>  
     
