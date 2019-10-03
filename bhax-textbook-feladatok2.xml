@@ -27,6 +27,10 @@
         </xi:fallback>
     </xi:include>     
     
+    <xi:include href="bhax-textbook-feladatok2-liskov.xml">
+        
+    </xi:include>
+    
     
             
 </part>  
