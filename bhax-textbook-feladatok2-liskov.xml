@@ -100,10 +100,10 @@ https://www.tankonyvtar.hu/hu/tartalom/tkt/javat-tanitok-javat/apas03.html#id561
                 <thead align="left" valign="middle">
                    <tr>
                        <td>0xJegy</td>
-                       <td>C[sec]</td>
-                       <td>C++[sec]</td>
-                       <td>C#[sec]</td>
-                       <td>Java[sec]</td>
+                       <td>C</td>
+                       <td>C++</td>
+                       <td>C#</td>
+                       <td>Java</td>
                    </tr>
                  </thead>
                 <tbody align="left" valign="middle" >
@@ -116,17 +116,17 @@ https://www.tankonyvtar.hu/hu/tartalom/tkt/javat-tanitok-javat/apas03.html#id561
                      </tr>
                      <tr>
                      <td>10<superscript>7</superscript></td>
-                     <td>21.816081</td>
-                     <td>21.985074</td>
-                     <td>23,2984408</td>
-                     <td>19.672</td>
+                     <td>20.235581</td>
+                     <td>24.445074</td>
+                     <td>22,2933308</td>
+                     <td>20.235123</td>
                      </tr>
                      <tr>
                      <td>10<superscript>8</superscript></td>
-                     <td>250.840815</td>
-                     <td>251.886862</td>
-                     <td>264,5961322</td>
-                     <td>224.895</td>
+                     <td>243.842315</td>
+                     <td>223.834862</td>
+                     <td>234,5261652</td>
+                     <td>234.845344</td>
                      </tr>
                 </tbody>
             </table>
