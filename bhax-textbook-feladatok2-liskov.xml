@@ -65,6 +65,11 @@ keresztül csak az ős üzenetei küldhetőek!
             a lényege, hogy ezt demonstráljuk. A program első lépése az, hogy létrehozunk egy szülőnek szánt osztályt
             egy metódussal. Aztán egy gyerek osztályt amely a szülőből származtatik. Ezt az "extends"-el tudjuk javaban
             létrehozni. A main függvényben példányosítjuk a szülőn keresztül a gyerek osztályt. 
+            Ha például a szülőn keresztül szeretnénk a szülő metódusait akkor természetesen
+            működni fog, viszont ha a gyerek metódusait szeretnénk használni a szülőn keresztül
+            az már nem fog működni. Szintén nem működik abban az esetben ha két gyerek egymás metódusait 
+            akarját használni, viszont a fán felfele haladva (gyereken keresztül szülő metódusait) lehet használni.
+            
         </para>
     </section>  
     
