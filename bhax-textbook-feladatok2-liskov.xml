@@ -93,7 +93,7 @@ https://www.tankonyvtar.hu/hu/tartalom/tkt/javat-tanitok-javat/apas03.html#id561
     </section>  
     
      <section>
-        <title>deprecated - Hello, Android!
+        <title>deprecated - Hello, Android!(zöld)
 
 </title>
         <para>
@@ -135,7 +135,7 @@ Apró módosításokat eszközölj benne, pl. színvilág.
     </section>  
     
      <section>
-        <title>Hello, SMNIST for Humans!
+        <title>Hello, SMNIST for Humans!(piros)
 
 </title>
         <para>
@@ -166,13 +166,28 @@ fóliát)!
 
         </para>
         <para>
-            Megoldás videó:
+            Oldal: <link xlink:href="http://www.lizard.ws/">link</link>
         </para>
         <para>
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat... : A ciklomatikus komplexitás 
+            vezérlési gráfban a független utaknak a maximális száma. Két út akkor 
+            függvetlen ha létezik mindkettőben olyan pont vagy él, amely a másik útnak eleme.
+            Az értéke: M=E-N+2P, ahol E az élek száma, N a csúcsok száma, P pedig a pontok száma.
+            Ennek a komplexitásnak a kitalálója Thomas McCabe.
+            
+            <mediaobject>
+                <imageobject>
+                    <imagedata fileref="/Users/bopi98/Desktop/lizard.ws.png" scale="70"/>
+                </imageobject>
+            </mediaobject>
+            
+            A polártranszformáció számítási részét beillesztettem java nyelven, majd 
+            eredményként kiírta a komplexitást 3-ra, az NLOC 20, és a tokenhez 134-re.
+            
+            
         </para>
     </section>  
 </chapter>                
