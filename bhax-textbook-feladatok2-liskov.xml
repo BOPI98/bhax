@@ -96,7 +96,16 @@ https://www.tankonyvtar.hu/hu/tartalom/tkt/javat-tanitok-javat/apas03.html#id561
             224.652 volt, amíg a c++ már 274.561 eredményt adott.
         </para>
          <para>
-             
+                                                 <table>
+                                        <tr>
+                                            <td>First Cell</td>
+                                            <td>Second Cell</td>
+                                        </tr>
+                                        <tr>
+                                            <td>First Cell, Second Row</td>
+                                            <td>Second Cell, Second Row</td>
+                                        </tr>
+                                    </table>
              </para>
     </section>  
     
