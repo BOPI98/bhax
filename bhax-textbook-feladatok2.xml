@@ -31,6 +31,34 @@
         
     </xi:include>
     
+    <xi:include href="bhax-textbook-feladatok2-mandelbrot.xml">
+        
+    </xi:include>
+    
+    <xi:include href="bhax-textbook-feladatok2-chomsky.xml">
+        
+    </xi:include>
+    
+    <xi:include href="bhax-textbook-feladatok2-stroustrup.xml">
+        
+    </xi:include>
+    
+    <xi:include href="bhax-textbook-feladatok2-gödel.xml">
+        
+    </xi:include>
+    
+    <xi:include href="bhax-textbook-feladatok2-.xml">
+        
+    </xi:include>
+    
+    <xi:include href="bhax-textbook-feladatok2-schwarzenegger.xml">
+        
+    </xi:include>
+    
+    <xi:include href="bhax-textbook-feladatok2-calvin.xml">
+        
+    </xi:include>
+    
     
             
 </part>  
