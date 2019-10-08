@@ -9,15 +9,14 @@
     <section>
         <title>Reverse engineering UML osztálydiagram</title>
         <para>
-            A módosított polártranszformációs normális generátor beprogramozása Java nyelven. Mutassunk rá, hogy a mi természetes saját megoldásunk (az algoritmus egyszerre két normálist állít elő, kell egy példánytag, amely a nem visszaadottat tárolja és egy logikai tag, hogy van-e tárolt vagy futtatni kell az algot.) és az OpenJDK, Oracle JDK-ban a Sun által adott OO szervezés ua.!
-  Ugyanezt írjuk meg C++ nyelven is! (lásd még UDPROG repó: source/labor/polargen)
+           
 
         </para>
         <para>
             Megoldás videó:
         </para>
         <para>
-            Megoldás forrása:    https://arato.inf.unideb.hu/batfai.norbert/UDPROG/deprecated/Prog1_5.pdf (16-22 fólia)
+            Megoldás forrása:    
             
         </para>
         <para>
@@ -29,7 +28,7 @@
         <title>Forward engineering UML osztálydiagram
 </title>
         <para>
-            Az előző feladat kódját fejleszd tovább: vizsgáld, hogy Vannak-e Java osztályok a Pi hexadecimális kifejtésében!
+            
         </para>
         <para>
             Megoldás videó:
@@ -46,17 +45,12 @@
         <title>Egy esettan
 </title>
         <para>
-            Az előző feladat kódját fejleszd tovább: vizsgáld, hogy Vannak-e Java osztályok a Pi hexadecimális kifejtésében!
+           BME C++ könyv 14. fejezet (427-444,445-469)
         </para>
         <para>
-            Megoldás videó:
-        </para>
-        <para>
-            Megoldás forrása:                
-        </para>
-        <para>
-            Tanulságok, tapasztalatok, magyarázat...
-        </para>
+            
+            </para>
+        
     </section>   
     
     <section>
