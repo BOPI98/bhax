@@ -61,8 +61,14 @@
             a középső, a műveletek pedig a legalsó szakaszban vannak. Az attribútumok a
             tagváltozóknak, a műveletek pedig a függvényeknek felelnek meg. 
             Az osztály attribútumait ezzel a szintaxissal adjuk meg: láthatóság név: típus 
-            multiplicitás = alapértelmezett érték{tulajdonság}
-            </para>
+            multiplicitás = alapértelmezett érték{tulajdonság}. A láthatóságot  négy féleképpen
+            lehet megadni, lehet public, private, protected és package, viszont az utóbbi 
+            a c++ nyelvben nem lehetséges. A név és a láthatóság között elhelyezett / jel 
+            származtatott attribútumot jelöl. Ha egy programban más változókból származtatik 
+            egy változó értéke, akkor azt a c++ kódban nem jelöljük. Ez akkor fontos ha egy 
+            osztály egy objektumát relációs adatbázisban szeretnénk tárolni, ahol a lekérdezés során 
+            számoljuk ki az értéket. 
+             </para>
         
     </section>   
     
