@@ -56,6 +56,12 @@
             kapjunk az adott programról. Ez a grafikus megjelenítés, akkor hasznos, mikor
             egy problémát magas szinten akarunk megoldani és nem szeretnénk a részleteket 
             figyelembe venni. 
+            Az osztálydiagramm legfontosabb alkotóelemei az osztályok, melyeket téglalap 
+            jelöl. Ennek 3 fő szakasza van: az osztálynév a legfelső, az attribútumok 
+            a középső, a műveletek pedig a legalsó szakaszban vannak. Az attribútumok a
+            tagváltozóknak, a műveletek pedig a függvényeknek felelnek meg. 
+            Az osztály attribútumait ezzel a szintaxissal adjuk meg: láthatóság név: típus 
+            multiplicitás = alapértelmezett érték{tulajdonság}
             </para>
         
     </section>   
