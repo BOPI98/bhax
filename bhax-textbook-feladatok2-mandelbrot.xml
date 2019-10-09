@@ -48,7 +48,14 @@
            BME C++ könyv 14. fejezet (427-444,445-469)
         </para>
         <para>
-            
+            Ebben a fejezetben az UML és a C++ kapcsolata lesz tárgyalva. Az UML egy általános 
+            nyev, amely jelenleg minden fejlesztési nyelv szabványa, ezáltal minden eszközt támogat.
+            Az UML nem csak objektumorientált programokról tud modelt készíteni. Az UML egy 
+            grafikus modellezőnyelv, melyben a diagramok dobozokból, vonalakból, ikonokból
+            és szövegekből állnak. Ennek a grafikonnak az a lényege, hogy egy tömör vázat
+            kapjunk az adott programról. Ez a grafikus megjelenítés, akkor hasznos, mikor
+            egy problémát magas szinten akarunk megoldani és nem szeretnénk a részleteket 
+            figyelembe venni. 
             </para>
         
     </section>   
