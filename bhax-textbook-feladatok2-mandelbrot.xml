@@ -80,8 +80,19 @@
         
             <para>
             Az egyfajta kapcsolatot üres háromszögfejű nyíllal jelöljük. A szerepnév előtt 
-            - jel van, ami a szerepnévből képződő tagváltozó láthatóságát jelzi.
-            </para>
+            - jel van, ami a szerepnévből képződő tagváltozó láthatóságát jelzi. A sablonok ki
+            kifejezését vagy a példányosítását kétféleképpen lehet lemodellezni. Az 
+            egyszerűbb jelölés az osztály neve utén kettősponttal elválasztva feltünteti a példányostást.
+            Ezek a modellező eszközök képesek modellből előállítani kódot és fordítva. Amikor
+                modellből kódot állítunk elő, azt kódgenerálásnak hívjuk, és amikor kódból 
+                modellt azt pedig kódvisszafejtésnek nevezzük. Ezt a két szolgáltatást együtt 
+                képirányú generálásnak nevezzük. 
+            
+          </para>
+        
+        <para>
+        
+        </para>
     </section>   
     
     <section>
