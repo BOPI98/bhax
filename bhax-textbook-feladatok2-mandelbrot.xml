@@ -67,9 +67,20 @@
             származtatott attribútumot jelöl. Ha egy programban más változókból származtatik 
             egy változó értéke, akkor azt a c++ kódban nem jelöljük. Ez akkor fontos ha egy 
             osztály egy objektumát relációs adatbázisban szeretnénk tárolni, ahol a lekérdezés során 
-            számoljuk ki az értéket. 
+            számoljuk ki az értéket. Ha tömb az attribútum akkor a tartalmazott elemek lehetséges számának a 
+            halmazát a multiplicitás adja meg. A multiplicitás egy szám vagy egy egészekből álló 
+            intrvallum, melyek szövegként megjeleníthetőek. Az alapértelmezett értéke egy.
+            Paramétereknél ha nem írunk értéket akkor az in az alapértelmezett. Az in 
+            az érték szerinti paraméterátadásnak felel meg, az inout jelentése, hogy a függvény 
+            felhasználja a referencia vagy pointer által jelzett objektumot, majd megváltoztatja azt.
+            Az out esetében csak megváltoztatja az objektumot. A statikus műveletek aláhúzással 
+            vannak jelölve, a tisztán virtuális függvényeket dőlt betűvel vagy {abstract} 
+            tulajdonsággal adjuk meg.
              </para>
         
+            <para>
+            
+            </para>
     </section>   
     
     <section>
