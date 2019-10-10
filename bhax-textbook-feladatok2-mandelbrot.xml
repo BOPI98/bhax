@@ -75,11 +75,12 @@
             felhasználja a referencia vagy pointer által jelzett objektumot, majd megváltoztatja azt.
             Az out esetében csak megváltoztatja az objektumot. A statikus műveletek aláhúzással 
             vannak jelölve, a tisztán virtuális függvényeket dőlt betűvel vagy {abstract} 
-            tulajdonsággal adjuk meg.
+            tulajdonsággal adjuk meg. 
              </para>
         
             <para>
-            
+            Az egyfajta kapcsolatot üres háromszögfejű nyíllal jelöljük. A szerepnév előtt 
+            - jel van, ami a szerepnévből képződő tagváltozó láthatóságát jelzi.
             </para>
     </section>   
     
