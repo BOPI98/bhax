@@ -10,17 +10,23 @@
         <title>Reverse engineering UML osztálydiagram</title>
         <para>
            
-
+UML osztálydiagram rajzolása az első védési C++ programhoz. Az osztálydiagramot a forrásokból
+generáljuk (pl. Argo UML, Umbrello, Eclipse UML) Mutassunk rá a kompozíció és aggregáció
+kapcsolatára a forráskódban és a diagramon, lásd még: https://youtu.be/Td_nlERlEOs.
+https://arato.inf.unideb.hu/batfai.norbert/UDPROG/deprecated/Prog1_6.pdf (28-32 fólia)
         </para>
+        
         <para>
-            Megoldás videó:
-        </para>
-        <para>
-            Megoldás forrása:    
+            Megoldás forrása:    <link xlink:href="https://github.com/BOPI98/prog2_feladatok/tree/master/Mandelbrot">link https://github.com/BOPI98/prog2_feladatok/tree/master/Mandelbrot </link>
+            
             
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat... : A feladatnak az a lényege, hogy egy c++ kódból automatikusan generáljunk egy 
+            uml diagramot. Erre a feladatra használhatunk eclipse-et is egy plugin segítségével, vagy bármely más programot. Én 
+            az Umbrello programot használtam, ami egy open-source program és tökéletesen megfelel a célnak. A program telepítése 
+            után importálhatjuk a c++ programunkat az import wizard segítségével. Az importálás után, már csak annyi dolgunk van, hogy
+            az osztályokat behúzzuk a rajzterületre és automatikusan elkészül a diagram, kapcsolatokkal együtt.
         </para>
     </section>        
 
