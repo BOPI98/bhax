@@ -34,16 +34,16 @@ https://arato.inf.unideb.hu/batfai.norbert/UDPROG/deprecated/Prog1_6.pdf (28-32 
         <title>Forward engineering UML osztálydiagram
 </title>
         <para>
-            
+            UML-ben tervezzünk osztályokat és generáljunk belőle forrást!
         </para>
-        <para>
-            Megoldás videó:
-        </para>
+        
         <para>
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat... : A feladat arrol szól, hogy egy elkészített uml diagramot kell kóddá alakítani.
+            Ezt szintén meg lehet csinálni umbrello-val, de más program is alkalmas rá. Umbrelloban a code fül alatt található 
+            code generation wizard segítségével a meglévő objektumokat kóddá lehet konvertálni a megadott helyre. 
         </para>
     </section>       
     
