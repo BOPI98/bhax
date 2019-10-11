@@ -105,21 +105,32 @@ https://arato.inf.unideb.hu/batfai.norbert/UDPROG/deprecated/Prog1_6.pdf (28-32 
         <title>BPMN
 </title>
         <para>
-            Az előző feladat kódját fejleszd tovább: vizsgáld, hogy Vannak-e Java osztályok a Pi hexadecimális kifejtésében!
+        Rajzoljunk le egy tevékenységet BPMN-ben! https://arato.inf.unideb.hu/batfai.norbert/UDPROG/deprecated/Prog2_7.pdf (34-47 fólia)
         </para>
         <para>
-            Megoldás videó:
+            Megoldás forrása:    https://cawemo.com/            
         </para>
         <para>
-            Megoldás forrása:                
+            Tanulságok, tapasztalatok, magyarázat... : A feladat az volt, hogy rajzoljunk 
+            BPMN diagrammot egy program segítségével. Én a diagrammot a cawemo.com-on csináltam
+            , mivel így nem szükséges letölteni külön programot és felhőből is elérhetőek a projektek.
+            A használata egyszerű, felhasználóbarát és gyorsan lehet vele dolgozni. Az én diagrammom egy 
+            egyszerű fej vagy írás programot demonstrál egy szerver és egy felhasználó között. A szerver 
+            az induláskor bekér egy értéket(fej vagy írás), ezután generál egy random számot nulla és egy között 
+            , majd egy tesztelés által eldől, hogy a játékos nyert vagy veszített. Az eredmény megszületése 
+            után az eredményt elküldi a kliensnek, majd újra inputra vár. A kliens ennél egyszerűbb ugyanis 
+            annyit csinál, hogy bekér egy értéket amit elküld a szervernek, majd várja az eredményt. Ha megkapta 
+            az eredményt előről kezdődik a program. 
+            
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
-        </para>
+            Ezzel a programmal azonban nem csak programok működését tudjuk felvázolni, hanem bármely más 
+            cselekedetet, vagy tervet.
+            </para>
     </section>   
     
     <section>
-        <title>BPEL Helló, Világ! - egy visszhang folyamat
+        <title>BPEL Helló, Világ! - egy visszhang folyamat (zöld)
 </title>
         <para>
             Az előző feladat kódját fejleszd tovább: vizsgáld, hogy Vannak-e Java osztályok a Pi hexadecimális kifejtésében!
