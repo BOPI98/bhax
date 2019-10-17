@@ -79,7 +79,11 @@ Tipp: https://www.tankonyvtar.hu/en/tartalom/tkt/javat-tanitok-javat/ch03.html#l
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat... : A feladat egy teljes képernyős java alkalmazás készítése volt, melyehez kaptunk 
+            alapúl egy labirintus programot. A program letöltése után az encoding feladathoz hasonló eljárásokra volt szükség, hogy 
+            futtatható legyen. A futás során egy teljes képernyős alkalmazást kapunk, ami azt jelenti, hogy az egész képernyőt befedi 
+            a program. Az egyéni program egy panel osztályból és egy fő programból áll. A panel alapvetően elkészíti a programban látható
+            oválisok alakját, színét. A fő program pedig a képernyő méretére igazodik, majd 10ms ütemben hozza létre az oválisokat.
         </para>
     </section> 
     <section>
