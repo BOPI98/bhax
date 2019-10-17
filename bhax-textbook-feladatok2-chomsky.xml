@@ -18,10 +18,15 @@ fájl nevekben és a forrásokban is meghagyjuk az ékezetes betűket!
         </para>
         <para>
             Megoldás forrása:
-            <link xlink:href=" "> </link>
+            <link xlink:href="https://github.com/BOPI98/prog2_feladatok/tree/master/Chomsky/Encoding">https://github.com/BOPI98/prog2_feladatok/tree/master/Chomsky/Encoding</link>
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat... : A feladat arrül szól, hogy a korábban már átvett mandelbrot halmaz nagyító programot 
+            egy olyan formában kell lefuttatni, hogy a fájlnévben és a forráskódban a változóknak is ékezetes karakterei vannak. A program 
+            forráskodja megtalálható a tankönyvtár.hu-n. Miután letöltöttük a programot és javac-vel compile-olni akarjuk tapasztalhatjuk, hogy 
+            rengeteg error-t kapunk az ékezeteknek köszönhetően. Ezt a problémár az -encoding kapcsolóval lehet megoldani, mégpedig a 
+            javac -encoding Cp1250 *.java vagy javac -encoding windows-1250 *.java paranccsal. Miután a forráskódunk lefordult készen is 
+            áll a futtatásra.
         </para>
     </section>        
 
