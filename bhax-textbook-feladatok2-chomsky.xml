@@ -97,7 +97,15 @@ elkülönítése, kézreállóbb irányítás.
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat... : A feladat egy opengl program 
+            változtatásáról szól. a program megtalálható a gitlab felhőn. A program 
+            letöltése után g++ para6.cpp -o para -lboost_system -lGL -lGLU -lglut 
+            parancsal lecompile-oljuk. A program alapvetően egy három dimenziós objektumot
+            forgat, amelyen harom kocka van. A módisítás amit csináltam, az a háttér színe
+            , amit glClearColor(0.0f,0.0f,0.0f,1.0f); függvénnyel tudunk megoldani. A második 
+            amit módosítottam, az a kocka színe volt fehérre, amit a drawPaRaCube függvénybe 
+            találhatunk meg. A harmadik a kocka kiválasztására szolgáló számok elcsúsztatása volt. 
+            Az utolsó pedig a forgatásnak a wads billenytűvel való irányítása volt.
         </para>
     </section> 
     <section>
