@@ -62,7 +62,11 @@ ki és magyarázd meg a használt struktúratömb memóriafoglalását!)
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat... : Ez a feladat egy már régebben megoldott feladatból származtatik. A leet egy
+            olyan program amely egy szövegből minden karakterére egy olyan karakterkonbinációt ír ki amely hasonlóan néz ki. Ebben a 
+            programban fordítás után a futtatás során bekér egy stringet, majd azokat a leet kicseréli egy random karakterre vagy 
+            karakterláncra a megadott tömbből.
+     
         </para>
     </section> 
         
