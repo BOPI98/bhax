@@ -19,7 +19,13 @@
             
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat... : A feladat egy olyan c++ feladat amelyhez szükésg van boost függvényekre. A boostot
+            terminal-ban le lehet tölteni install boost-tal. A feladatban a java forrásainak a fájljait kell megszámolnia a programnak.
+            Ezt viszonylag könnyen meg lehet oldani a boost függvényekkel, mert például a fájl típusra, és a mappákra is vannak függványek 
+            , melyeknek a használata felgyorsítja a folyamatot. A Java src-t külön le lehet tölteni, installer-rel vagy manuálisan is. A 
+            program úgy számolja meg a java fájlokat, hogy egy voidban megírjuk a számláló függvényt, ami egy ciklusban végig megy a fájlokon
+            és ha directory-t talál, akkor rekúrzívan meghívja önmagát és az önmagán belüli fájlokat vizsgálja. A main-en belül vesszük az 
+            argv-t pwd-ként és a megadott mappán belül lefut a függvény. Kiiratásként a java fájlok számát kapjuk meg.
         </para>
     </section>        
 
