@@ -77,7 +77,12 @@
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat... : A feladat egy már korábban elkészült feladatra épül, amely egy png kép 
+            bemenetére egy double értéket adott vissza. Ez a feladat azonban egy ugyanakkora méretű képet kér kimenetbe. Az előzőhöz képest 
+            a program annyit változott, hogy a .hpp fájlban egy generáló függvény jött létre, amely új adatot ad vissza. Az eredeti képet 
+            úgy változtatja meg a program, hogy kiveszi a kép minden pixelének a zöld és a kék csatornáját és generál új adatot hozzá. 
+            A program többi részében az új adatokkal a png++ segítségével elkészül az új png kép. 
+            
         </para>
     </section> 
     
