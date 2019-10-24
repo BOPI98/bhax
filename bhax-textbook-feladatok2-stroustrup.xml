@@ -42,7 +42,8 @@
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat... : Ez a feladat már egy korábbi feladatban részletezve van, magyarázattal. 
+            A kódok az lzw binfának a másoló konstuktora és az értékadása, mely arra szolgál, hogy egy binfát lemásoljunk.
         </para>
     </section> 
     
