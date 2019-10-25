@@ -43,7 +43,9 @@
         </para>
         <para>
             Tanulságok, tapasztalatok, magyarázat... : Ez a feladat már egy korábbi feladatban részletezve van, magyarázattal. 
-            A kódok az lzw binfának a másoló konstuktora és az értékadása, mely arra szolgál, hogy egy binfát lemásoljunk.
+            A kódok az lzw binfának a másoló konstuktora és az értékadása, mely arra szolgál, hogy egy binfát lemásoljunk. 
+            A mozgató értékadás a két fa gyökerét cseréli meg, amelynek az az előnye, hogy a memóriában az adatok helye 
+            egy helyen marad, a másik binfa adatai automatikusan törlődnek.
         </para>
     </section> 
     
