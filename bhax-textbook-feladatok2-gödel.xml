@@ -1,23 +1,23 @@
 <chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0" xml:lang="hu">
     <info>
-        <title>1. hét - „Helló, Arroway!”</title>
+        <title>6. hét - „Helló, Gödel!”</title>
         <keywordset>
             <keyword/>
         </keywordset>
     </info>
 
     <section>
-        <title>OO szemlélet</title>
+        <title>Gengszterek</title>
         <para>
-            A módosított polártranszformációs normális generátor beprogramozása Java nyelven. Mutassunk rá, hogy a mi természetes saját megoldásunk (az algoritmus egyszerre két normálist állít elő, kell egy példánytag, amely a nem visszaadottat tárolja és egy logikai tag, hogy van-e tárolt vagy futtatni kell az algot.) és az OpenJDK, Oracle JDK-ban a Sun által adott OO szervezés ua.!
-  Ugyanezt írjuk meg C++ nyelven is! (lásd még UDPROG repó: source/labor/polargen)
+          Gengszterek rendezése lambdával a Robotautó Világbajnokságban
+https://youtu.be/DL6iQwPx1Yw (8:05-től)
 
         </para>
         <para>
             Megoldás videó:
         </para>
         <para>
-            Megoldás forrása:    https://arato.inf.unideb.hu/batfai.norbert/UDPROG/deprecated/Prog1_5.pdf (16-22 fólia)
+            Megoldás forrása:   
             
         </para>
         <para>
@@ -26,9 +26,11 @@
     </section>        
 
     <section>
-        <title>Java osztályok a Pi-ben</title>
+        <title>C++11 Custom Allocator</title>
         <para>
-            Az előző feladat kódját fejleszd tovább: vizsgáld, hogy Vannak-e Java osztályok a Pi hexadecimális kifejtésében!
+            https://prezi.com/jvvbytkwgsxj/high-level-programming-languages-2-c11-allocators/ a
+CustomAlloc-os példa, lásd C forrást az UDPROG repóban!
+
         </para>
         <para>
             Megoldás videó:
@@ -39,7 +41,80 @@
         <para>
             Tanulságok, tapasztalatok, magyarázat...
         </para>
-    </section>        
+    </section>   
+    
+    <section>
+        <title>STL map érték szerinti rendezése
+ </title>
+        <para>
+            Például: https://github.com/nbatfai/future/blob/master/cs/F9F2/fenykard.cpp#L180
+
+        </para>
+        <para>
+            Megoldás videó:
+        </para>
+        <para>
+            Megoldás forrása:                
+        </para>
+        <para>
+            Tanulságok, tapasztalatok, magyarázat...
+        </para>
+    </section>  
+    
+    <section>
+        <title>Alternatív Tabella rendezése
+ </title>
+        <para>
+            Mutassuk be a https://progpater.blog.hu/2011/03/11/alternativ_tabella a programban a java.lang
+Interface Comparable<T> szerepét!
+
+
+        </para>
+        <para>
+            Megoldás videó:
+        </para>
+        <para>
+            Megoldás forrása:                
+        </para>
+        <para>
+            Tanulságok, tapasztalatok, magyarázat...
+        </para>
+    </section>
+    
+    <section>
+        <title>Prolog családfa </title>
+        <para>
+            Ágyazd be a Prolog családfa programot C++ vagy Java programba! Lásd para_prog_guide.pdf!
+
+        </para>
+        <para>
+            Megoldás videó:
+        </para>
+        <para>
+            Megoldás forrása:                
+        </para>
+        <para>
+            Tanulságok, tapasztalatok, magyarázat...
+        </para>
+    </section>
+    
+    <section>
+        <title>GIMP Scheme hack </title>
+        <para>
+            Ha az előző félévben nem dolgoztad fel a témát (például a mandalás vagy a króm szöveges
+dobozosat) akkor itt az alkalom!
+
+        </para>
+        <para>
+            Megoldás videó:
+        </para>
+        <para>
+            Megoldás forrása:                
+        </para>
+        <para>
+            Tanulságok, tapasztalatok, magyarázat...
+        </para>
+    </section>
         
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 </chapter>                
