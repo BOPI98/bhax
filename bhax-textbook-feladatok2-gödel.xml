@@ -219,7 +219,19 @@ dobozosat) akkor itt az alkalom!
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat...:
+        
+        A mandalakészítéshez egy szöveget kell a kép közepére írni, ezt 
+            tükrözzük horizontálisan. Ezután ennek másolatát forgatjuk el 90 
+            fokal, majd az eddigiek összevontjá- nak másolatát 45 fokkal. Az 
+            eddigiek másolatát pedig végül 30 fokkal és megkapjuk a mandalánkat. 
+            A programban az elo ̋zo ̋höz hasonlóan szöveget kell megadni, majd a car 
+            és cdr parancsok itt is megjelennek azonos céllal. A függvény deklarálást 
+            követo ̋en jön maga az algoritmusok lefutása. A felhasználó ilyenkor 
+            beírja a szöveget, a betu ̋típust, a méretet, width-et, height-ot és 
+            gradient-et. A megadott paraméterekkel behelyettesítve lefut az 
+            algoritmus és megkapjuk a képet.
+        
         </para>
     </section>
         
