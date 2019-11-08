@@ -21,7 +21,7 @@ https://youtu.be/DL6iQwPx1Yw (8:05-től)
             
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat...: 
         </para>
     </section>        
 
@@ -39,8 +39,90 @@ CustomAlloc-os példa, lásd C forrást az UDPROG repóban!
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat...: A c++ szabvány könyvtárai között megtalálhatóak az allokátor elemek is, melyek szerepe, hogy 
+            a program futása közben megváltoztassuk az egyes konténerek méretét. Ennek a feladata az, hogy a tárolóra vonatkozó memória
+            allokálását és a foglalások kérését kezelje. Alekszander Stepanovnak köszönhetőek az allokátorok, akinek az volt acélja, hogy
+            a standard librarit tegye rugalmasabbá. Ezek mellett fontosnak tartotta, hogy független legyen az alap modelltől. Ennek az volt 
+            az előnye, hogy egyedi mutatókat és referenciákat lehetett használni. 
         </para>
+        
+        <para>
+            <programlisting>int main() {
+    std::vector &lt;int> v;
+    return 0;
+}</programlisting>
+        </para>
+
+        <para>
+            A következő program egy alapértelmezett allocatort használ és ezzel hozunk létre egy egyedi allokátort. A példában pedig 
+            a a lefoglalt memória mennyiségét követik nyomon.
+            </para>
+        <para>
+            
+            <programlisting>#include &lt;iostream>
+#include &lt;limits>
+#include &lt;memory>
+#include &lt;vector>
+ 
+template&lt;class T>
+class TrackingAllocator
+{
+public:
+    using value_type = T;
+
+    using pointer = T *;
+    using const_pointer = const T *;
+ 
+    using size_type = size_t;
+ 
+    TrackingAllocator() = default;
+ 
+    template&lt;class U>
+    TrackingAllocator(const TrackingAllocator&lt;U> &amp;other) {}
+ 
+    ~TrackingAllocator() = default;
+ 
+    pointer allocate(size_type numObjects)
+    {
+        mAllocations += numObjects;
+        return static_cast&lt;pointer>(operator new(sizeof(T) * numObjects));
+    }
+ 
+    void deallocate(pointer p, size_type numObjects)
+    {
+        operator delete(p);
+    }
+ 
+    size_type get_allocations() const
+    {
+        return mAllocations;
+    }
+ 
+private:
+    static size_type mAllocations;
+};
+ 
+template&lt;class T>
+typename TrackingAllocator&lt;T>::size_type TrackingAllocator&lt;T>::mAllocations = 0;
+ 
+int main()
+{
+    std::vector&lt;int, TrackingAllocator&lt;int>> v(5);
+    std::cout &lt;&lt; v.get_allocator().get_allocations() &lt;&lt; std::endl;
+ 
+    return 0;
+}</programlisting>
+
+            </para>
+        
+        <para>
+            A program két részből áll, egy lokátor skála,
+            és ezt meghívjuk a main-ben a vektornál. Ezután tekintsük át a TrackingAllocator osztályt is. Ez az osztály azzal a feladattal
+            van létrehozva, hogy a segítségével az allokátorok mennyiségét tudjuk követni.
+
+            </para>
+        
+        
     </section>   
     
     <section>
@@ -57,7 +139,12 @@ CustomAlloc-os példa, lásd C forrást az UDPROG repóban!
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat...: A standard template library egy c++ sablonoztály, amely biztosít általános 
+            adatszerkezeteket és funkciókat, mint például listál, vagy tömbök. Ennek a könyvtárnak paraméterezett komponensei vannak,
+            ez a négy elem amiből áll, a konténerek, az algoritmusok, a függvények és az iterátorok. Az algoritmusok a funkciógyűjteményeket
+            határoz meg, amiket elemtartományokhoz hoztak létre. Ez biztosít eszközöket a konténerekhez, a műveletek érdekében, például a sort vagy search.
+            Az stl tartalmaz olyan osztályokat, melyek leterhelik a funkcióhívó operátort, ezt hívjuk függvényobjektumoknak. Átaott paraméterekkel
+            a funkciók lehetővé teszik a kapcsoló funkciók működését.
         </para>
     </section>  
     
