@@ -37,8 +37,25 @@ Itt láthatjuk működésben az alapot: https://www.twitch.tv/videos/222879467
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat... : A scanf függvény az inputról való beolvasásra használatos. 
+            A scanf alapvetően négy adatot vesz be a beolvasáshoz. A robotautó myshmclient.cpp fájljában egy while 
+            ciklusban olvas be a program adatot az inputról. Mivel a tesztelésben található a scanf, így 
+            a sikeres beolvasás után mindig ismétlődni fog. Ezt a scanf visszatérő értékéből dönti el a tesztelés.
+            Beolvasás során egy n nevű int változóba megszámlálódik, hány beolvasott adat érkezett, majd ezeket 
+            összeadja egy nn változóba. A data+nn megadja hogy melyik sornál tartott a beolvasás, így nem lesz beolvasva
+            ugyanaz a sor mégegyszer.
+            
         </para>
+        <para>
+            CODE:
+            </para>
+        <para>
+            while ( std::sscanf ( data+nn, "<OK %d %u %u %u>%n", &idd, &f, &t, &s, &n ) == 4 )
+    {
+      nn += n;
+      gangsters.push_back ( Gangster {idd, f, t, s} );
+    }
+            </para>
     </section>   
     
     <section>
