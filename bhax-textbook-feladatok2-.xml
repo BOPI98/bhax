@@ -46,16 +46,7 @@ Itt láthatjuk működésben az alapot: https://www.twitch.tv/videos/222879467
             ugyanaz a sor mégegyszer.
             
         </para>
-        <para>
-            CODE:
-            </para>
-        <para>
-            while ( std::sscanf ( data+nn, "<OK %d %u %u %u>%n", &idd, &f, &t, &s, &n ) == 4 )
-    {
-      nn += n;
-      gangsters.push_back ( Gangster {idd, f, t, s} );
-    }
-            </para>
+        
     </section>   
     
     <section>
@@ -72,7 +63,17 @@ https://github.com/nbatfai/SamuCam
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat... : A SamuCam egy olyan program, amely egy webkamera adatait közvetíti
+            megjelenítésre. A program lefuttatásnál argumentumban egy ip-címről fogja megnyitni a kamerát. A kamerát 
+            az opencv segítségével tudjuk megnyitni a videocapture.open függvénnyel, itt ha az ip helyére 0-át írunk akkor 
+            nem ipről, hanem eszközről szerzi az adatot. 
+            
+            Az opencv-ben egy cascadeclassifier metódussal ismertetjük fel az objektumot, majd egy xml-t megadunk neki és 
+            az arcfelismerés létre is jön. Ezt követi a hibakezelés, majd egy n dimenziós mártixban eltároljuk a képadatokat.
+            
+            A program lényegesebb része a while ciklus ami addig fut amíg a webkamera küldi az adatokat. A 
+            cv::resize() újra méretezi a képet, a cv::INTER_CUBIC pedig elkészíti a pixeleket a képen. 
+            
         </para>
     </section>  
     
@@ -90,7 +91,7 @@ https://github.com/nbatfai/SamuCam
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat...: 
         </para>
     </section>
     
