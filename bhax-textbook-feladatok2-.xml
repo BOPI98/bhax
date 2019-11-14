@@ -1,17 +1,17 @@
 <chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0" xml:lang="hu">
     <info>
-        <title>6. hét - „Helló, Gödel!”</title>
+        <title>7. hét - „Helló, !</title>
         <keywordset>
             <keyword/>
         </keywordset>
     </info>
 
     <section>
-        <title>Gengszterek</title>
+        <title>FUTURE tevékenység editor</title>
         <para>
-          Gengszterek rendezése lambdával a Robotautó Világbajnokságban
-https://youtu.be/DL6iQwPx1Yw (8:05-től)
-
+          Javítsunk valamit a ActivityEditor.java JavaFX programon!
+https://github.com/nbatfai/future/tree/master/cs/F6
+Itt láthatjuk működésben az alapot: https://www.twitch.tv/videos/222879467
         </para>
         <para>
             Megoldás videó:
@@ -26,11 +26,9 @@ https://youtu.be/DL6iQwPx1Yw (8:05-től)
     </section>        
 
     <section>
-        <title>C++11 Custom Allocator</title>
+        <title>OOCWC Boost ASIO hálózatkezelése</title>
         <para>
-            https://prezi.com/jvvbytkwgsxj/high-level-programming-languages-2-c11-allocators/ a
-CustomAlloc-os példa, lásd C forrást az UDPROG repóban!
-
+            Mutassunk rá a scanf szerepére és használatára! https://github.com/nbatfai/robocaremulator/blob/master/justine/rcemu/src/carlexer.ll
         </para>
         <para>
             Megoldás videó:
@@ -44,11 +42,11 @@ CustomAlloc-os példa, lásd C forrást az UDPROG repóban!
     </section>   
     
     <section>
-        <title>STL map érték szerinti rendezése
+        <title>SamuCam
  </title>
         <para>
-            Például: https://github.com/nbatfai/future/blob/master/cs/F9F2/fenykard.cpp#L180
-
+            Mutassunk rá a webcam (pl. Androidos mobilod) kezelésére ebben a projektben:
+https://github.com/nbatfai/SamuCam
         </para>
         <para>
             Megoldás videó:
@@ -62,12 +60,10 @@ CustomAlloc-os példa, lásd C forrást az UDPROG repóban!
     </section>  
     
     <section>
-        <title>Alternatív Tabella rendezése
+        <title>BrainB
  </title>
         <para>
-            Mutassuk be a https://progpater.blog.hu/2011/03/11/alternativ_tabella a programban a java.lang
-Interface Comparable T szerepét!
-
+            Mutassuk be a Qt slot-signal mechanizmust ebben a projektben: https://github.com/nbatfai/esporttalent-search
 
         </para>
         <para>
@@ -82,10 +78,12 @@ Interface Comparable T szerepét!
     </section>
     
     <section>
-        <title>Prolog családfa </title>
+        <title>OSM térképre rajzolása</title>
         <para>
-            Ágyazd be a Prolog családfa programot C++ vagy Java programba! Lásd para_prog_guide.pdf!
-
+            Debrecen térképre dobjunk rá cuccokat, ennek mintájára, ahol én az országba helyeztem el a DEAC
+hekkereket: https://www.twitch.tv/videos/182262537 (de az OOCWC Java Swinges
+megjelenítőjéből: https://github.com/nbatfai/robocar-emulator/tree/master/justine/rcwin is
+kiindulhatsz, mondjuk az komplexebb, mert ott időfejlődés is van...)
         </para>
         <para>
             Megoldás videó:
@@ -98,23 +96,7 @@ Interface Comparable T szerepét!
         </para>
     </section>
     
-    <section>
-        <title>GIMP Scheme hack </title>
-        <para>
-            Ha az előző félévben nem dolgoztad fel a témát (például a mandalás vagy a króm szöveges
-dobozosat) akkor itt az alkalom!
-
-        </para>
-        <para>
-            Megoldás videó:
-        </para>
-        <para>
-            Megoldás forrása:                
-        </para>
-        <para>
-            Tanulságok, tapasztalatok, magyarázat...
-        </para>
-    </section>
+    
         
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 </chapter>                
