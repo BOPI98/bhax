@@ -91,7 +91,15 @@ https://github.com/nbatfai/SamuCam
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...: 
+            Tanulságok, tapasztalatok, magyarázat...: A programban az objektumok közötti kommunikációt a 
+            qt slot signallal hozzuk létre. A függvény akkor lesz meghívva, ha egy esemény bekövetkezik, 
+            amiről a kód küld egy emitet, amikből a megfelelőt befogja a connect. 
+            A SIGNAL() függvényben megadjuk, hogy a heroesChanged jeltől milyen paramétert várunk. 
+            Majd a SLOT- függvényt lefuttatjuk updateHeroes()-al és annak paramétereivel.
+            Ez után ismét egy hasonló connect függvény következik ahol a SIGNAL-ban egy endAndStats 
+            függvény található, mely leállítja a programot és kiírja az eredményt.
+            
+            
         </para>
     </section>
     
