@@ -7,67 +7,38 @@
     </info>
 
     <section>
-        <title>Gengszterek</title>
+        <title>Port scan</title>
+        
         <para>
-          Gengszterek rendezése lambdával a Robotautó Világbajnokságban
-https://youtu.be/DL6iQwPx1Yw (8:05-től)
-
-        </para>
-        <para>
-            Megoldás videó:
-        </para>
-        <para>
-            Megoldás forrása:   
             
-        </para>
-        <para>
-            Tanulságok, tapasztalatok, magyarázat...
         </para>
     </section>        
 
     <section>
-        <title>C++11 Custom Allocator</title>
+        <title>AOP</title>
         <para>
-            https://prezi.com/jvvbytkwgsxj/high-level-programming-languages-2-c11-allocators/ a
-CustomAlloc-os példa, lásd C forrást az UDPROG repóban!
-
         </para>
+        <para></para>
         <para>
-            Megoldás videó:
-        </para>
+            </para>
         <para>
-            Megoldás forrása:                
-        </para>
-        <para>
-            Tanulságok, tapasztalatok, magyarázat...
-        </para>
+            </para>
     </section>   
     
     <section>
-        <title>STL map érték szerinti rendezése
+        <title>Android Játék
  </title>
         <para>
-            Például: https://github.com/nbatfai/future/blob/master/cs/F9F2/fenykard.cpp#L180
-
         </para>
-        <para>
-            Megoldás videó:
-        </para>
-        <para>
-            Megoldás forrása:                
-        </para>
-        <para>
-            Tanulságok, tapasztalatok, magyarázat...
-        </para>
+        <para></para>
+        <para></para>
+        <para></para>
     </section>  
     
     <section>
-        <title>Alternatív Tabella rendezése
+        <title>Junit teszt
  </title>
         <para>
-            Mutassuk be a https://progpater.blog.hu/2011/03/11/alternativ_tabella a programban a java.lang
-Interface Comparable T szerepét!
-
 
         </para>
         <para>
@@ -82,37 +53,41 @@ Interface Comparable T szerepét!
     </section>
     
     <section>
-        <title>Prolog családfa </title>
+        <title>OSCI</title>
         <para>
-            Ágyazd be a Prolog családfa programot C++ vagy Java programba! Lásd para_prog_guide.pdf!
-
         </para>
         <para>
-            Megoldás videó:
+            </para>
+        <para>
         </para>
         <para>
-            Megoldás forrása:                
-        </para>
-        <para>
-            Tanulságok, tapasztalatok, magyarázat...
         </para>
     </section>
     
     <section>
-        <title>GIMP Scheme hack </title>
+        <title>OSCI2</title>
         <para>
-            Ha az előző félévben nem dolgoztad fel a témát (például a mandalás vagy a króm szöveges
-dobozosat) akkor itt az alkalom!
-
+            Készíts egyszerű C++/OpenGL-es megjelenítőt, amiben egy kocsit 
+            irányítasz az úton. A kocsi állapotát minden pillanatban mentsd 
+            le. Ezeket add át egy Prolog programnak, ami egyszerű reflex 
+            ágensként adjon vezérlést a kocsinak, hasonlítsd össze a kézi 
+            és a Prolog-os vezérlést. Módosítsd úgy a programodat, hogy ne 
+            csak kézzel lehessen vezérelni a kocsit, hanem a Prolog reflex 
+            ágens vezérelje!
         </para>
         <para>
             Megoldás videó:
         </para>
         <para>
-            Megoldás forrása:                
+            Megoldás forrása:  "Github link folyamatban"          
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat...: A feladat egy c++/opengl program megírásáról szól
+            , melyben egy autót irányítunk és egy prolog program rögzíti minden pillanatban az autó adatait.
+            A feladat egy hasonló formáját készítettem el, amely egy autó irányításából áll, ezek mellett egy körverseny 
+            környezet megvalósításával kiegészítettem és egy AI autót is implementáltam a projektbe
+            versenytársként. A feladat részeként a Unity játék Engine-t és a projekthez felhasznált 
+            assetet működését fogom elmagyarázni és demonstrálni. 
         </para>
     </section>
         
