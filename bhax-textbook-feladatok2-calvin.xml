@@ -1,17 +1,16 @@
 <chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0" xml:lang="hu">
     <info>
-        <title>6. hét - „Helló, Gödel!”</title>
+        <title>9. hét - „Helló, Calvin!”</title>
         <keywordset>
             <keyword/>
         </keywordset>
     </info>
 
     <section>
-        <title>Gengszterek</title>
-        <para>
-          Gengszterek rendezése lambdával a Robotautó Világbajnokságban
-https://youtu.be/DL6iQwPx1Yw (8:05-től)
-
+        <title>MNIST</title>
+        <para>Az alap feladat megoldása, +saját kézzel rajzolt képet is ismerjen fel,
+https://progpater.blog.hu/2016/11/13/hello_samu_a_tensorflow-bol Háttérként ezt vetítsük le:
+https://prezi.com/0u8ncvvoabcr/no-programming-programming/
         </para>
         <para>
             Megoldás videó:
@@ -26,7 +25,7 @@ https://youtu.be/DL6iQwPx1Yw (8:05-től)
     </section>        
 
     <section>
-        <title>C++11 Custom Allocator</title>
+        <title>Deep MNIST</title>
         <para>
             https://prezi.com/jvvbytkwgsxj/high-level-programming-languages-2-c11-allocators/ a
 CustomAlloc-os példa, lásd C forrást az UDPROG repóban!
@@ -44,11 +43,11 @@ CustomAlloc-os példa, lásd C forrást az UDPROG repóban!
     </section>   
     
     <section>
-        <title>STL map érték szerinti rendezése
+        <title>CIFAR-10
  </title>
         <para>
-            Például: https://github.com/nbatfai/future/blob/master/cs/F9F2/fenykard.cpp#L180
-
+            Az alap feladat megoldása, +saját fotót is ismerjen fel,
+https://progpater.blog.hu/2016/12/10/hello_samu_a_cifar-10_tf_tutorial_peldabol
         </para>
         <para>
             Megoldás videó:
@@ -62,11 +61,10 @@ CustomAlloc-os példa, lásd C forrást az UDPROG repóban!
     </section>  
     
     <section>
-        <title>Alternatív Tabella rendezése
+        <title>Android telefonra a TF objektum detektálója
  </title>
         <para>
-            Mutassuk be a https://progpater.blog.hu/2011/03/11/alternativ_tabella a programban a java.lang
-Interface Comparable T  szerepét!
+            Telepítsük fel, próbáljuk ki!
 
 
         </para>
@@ -82,10 +80,9 @@ Interface Comparable T  szerepét!
     </section>
     
     <section>
-        <title>Prolog családfa </title>
+        <title>SMNIST for Machines</title>
         <para>
-            Ágyazd be a Prolog családfa programot C++ vagy Java programba! Lásd para_prog_guide.pdf!
-
+            Készíts saját modellt, vagy használj meglévőt, lásd: https://arxiv.org/abs/1906.12213
         </para>
         <para>
             Megoldás videó:
@@ -99,10 +96,12 @@ Interface Comparable T  szerepét!
     </section>
     
     <section>
-        <title>GIMP Scheme hack </title>
+        <title>Minecraft MALMO-s példa</title>
         <para>
-            Ha az előző félévben nem dolgoztad fel a témát (például a mandalás vagy a króm szöveges
-dobozosat) akkor itt az alkalom!
+           A https://github.com/Microsoft/malmo felhasználásával egy ágens példa, lásd pl.:
+https://youtu.be/bAPSu3Rndi8, https://bhaxor.blog.hu/2018/11/29/eddig_csaltunk_de_innentol_mi,
+https://bhaxor.blog.hu/2018/10/28/minecraft_steve_szemuvege
+
 
         </para>
         <para>
