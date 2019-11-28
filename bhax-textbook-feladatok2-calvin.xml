@@ -88,11 +88,11 @@ https://progpater.blog.hu/2016/12/10/hello_samu_a_cifar-10_tf_tutorial_peldabol
             tévesen felismerni, például egy egetet képes telefonnak érzékelni, vagy fordítva. 
             </para>
         
-        <image>tensorflow1.jpg</image>
-        <image>tensorflow2.jpg</image>
-        <image>tensorflow3.jpg</image>
-        <image>tensorflow4.jpg</image>
-        <image>tensorflow5.jpg</image>
+         <mediaobject>
+                <imageobject>
+                    <imagedata fileref="tensorflow1.jpg" scale="30"/>
+                </imageobject>
+            </mediaobject>
         
         
         
