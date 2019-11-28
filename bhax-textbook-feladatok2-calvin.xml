@@ -75,8 +75,27 @@ https://progpater.blog.hu/2016/12/10/hello_samu_a_cifar-10_tf_tutorial_peldabol
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat... : A feladat mindössze egy telefonos aplikáció tesztelése volt. 
+            A Tensorflow egy nyílt hozzáférésű platform gépi tanuláshoz. Ezen a platformon több ezer képből vizsgálva 
+            tanul a mesterséges inteligencia felismerni bizonyos objektumokat. A telefonos applikáción keresztül, 
+            a kameránk képét felhasználva real-time detektálhatunk tárgyakat. A detektált tárgyak mellett a program 
+            %-os arányban feltünteti, hogy mennyire biztos a detektálás helyességében. Az applikációt a play áruházban 
+            letölthetjük ingyenesen és azt megnyitva már tesztelhetjük is a programot.
         </para>
+        <para>
+            A tapasztalataim szerinte a program meglepően érzékeny bizonyos objektumokra, mint például autókra, vagy emberekre.
+            Ez valószínüleg a nagy választékú adatnak köszönhető. Ugyanakkor valamennyi tárgyat hajlandó, vagy összekeverni, vagy 
+            tévesen felismerni, például egy egetet képes telefonnak érzékelni, vagy fordítva. 
+            </para>
+        
+        <image>tensorflow1.jpg</image>
+        <image>tensorflow2.jpg</image>
+        <image>tensorflow3.jpg</image>
+        <image>tensorflow4.jpg</image>
+        <image>tensorflow5.jpg</image>
+        
+        
+        
     </section>
     
     <section>
