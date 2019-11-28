@@ -89,6 +89,31 @@ https://progpater.blog.hu/2016/12/10/hello_samu_a_cifar-10_tf_tutorial_peldabol
             </para>
         
         
+         <mediaobject>
+                <imageobject>
+                    <imagedata fileref="tensorflow1.jpg" scale="30"/>
+                </imageobject>
+            </mediaobject>
+        <mediaobject>
+                <imageobject>
+                    <imagedata fileref="tensorflow2.jpg" scale="30"/>
+                </imageobject>
+            </mediaobject>
+        <mediaobject>
+                <imageobject>
+                    <imagedata fileref="tensorflow3.jpg" scale="30"/>
+                </imageobject>
+            </mediaobject>
+        <mediaobject>
+                <imageobject>
+                    <imagedata fileref="tensorflow4.jpg" scale="30"/>
+                </imageobject>
+            </mediaobject>
+        <mediaobject>
+                <imageobject>
+                    <imagedata fileref="tensorflow5.jpg" scale="30"/>
+                </imageobject>
+            </mediaobject>
         
         
     </section>
