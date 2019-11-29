@@ -20,8 +20,16 @@ https://prezi.com/0u8ncvvoabcr/no-programming-programming/
             
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat...: A feladat a MNIST-en, vagyis a Modified National of Standards and
+            Technology database-en alapul. Az MNIST egy olyan adatbázis amiben több szabadkézzel írott szám található.
+            Ezt az adatbázist egy képfeldolgozó rendszer használja machine learning-re. A program az MNIST többtízezer
+            képe segítségével ismeri fel, hogy milyen számot ábrázol a saját rajzunk. Maga a gépi tanulás a tensorflow-val
+            fog zajlani, ami egy open-source platform.
         </para>
+        <para>
+            a tensorflow telepítéséhez a "sudo pip3 install tensorflow==1.14" parancsot használtam.
+            a python telepítéséhez pedig macos-en a "brew install python" parancsot.
+            </para>
     </section>        
 
     <section>
@@ -85,7 +93,8 @@ https://progpater.blog.hu/2016/12/10/hello_samu_a_cifar-10_tf_tutorial_peldabol
         <para>
             A tapasztalataim szerinte a program meglepően érzékeny bizonyos objektumokra, mint például autókra, vagy emberekre.
             Ez valószínüleg a nagy választékú adatnak köszönhető. Ugyanakkor valamennyi tárgyat hajlandó, vagy összekeverni, vagy 
-            tévesen felismerni, például egy egetet képes telefonnak érzékelni, vagy fordítva. 
+            tévesen felismerni, például egy egetet képes telefonnak érzékelni, vagy fordítva. Összegezve a program bizonyos helyzetekben
+            nagyon pontos, de vannak benne hibás felismerések.
             </para>
         
         
