@@ -84,11 +84,14 @@
         <para>
             Tanulságok, tapasztalatok, magyarázat...: A feladat egy c++/opengl program megírásáról szól
             , melyben egy autót irányítunk és egy prolog program rögzíti minden pillanatban az autó adatait.
-            A feladat egy hasonló formáját készítettem el, amely egy autó irányításából áll, ezek mellett egy körverseny 
-            környezet megvalósításával kiegészítettem és egy AI autót is implementáltam a projektbe
-            versenytársként. A feladat részeként a Unity játék Engine-t és a projekthez felhasznált 
-            assetet működését fogom elmagyarázni és demonstrálni. 
+            A feladat egy hasonló formáját készítettem el, a programban egy autót irányítunk, amely egy 
+            körversenyen vesz részt, a versenyhez csatlakozik egy AI autó versenytársként. A feladatot  
+            a Unity játék Engine-nel készítettem el és a projekthez felhasználtam néhány a unity által 
+            felkínált ingyenes assetet. A program működését fogom a következőkben elmagyarázni és demonstrálni. 
         </para>
+        <para>
+            
+            </para>
     </section>
         
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
