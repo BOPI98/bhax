@@ -79,7 +79,7 @@
             Megoldás videó:
         </para>
         <para>
-            Megoldás forrása:  "Github link folyamatban"          
+            Megoldás forrása:  <link xlink:href="https://github.com/BOPI98/CarGame">GithubLink</link>  
         </para>
         <para>
             Tanulságok, tapasztalatok, magyarázat...: A feladat egy c++/opengl program megírásáról szól
@@ -89,6 +89,14 @@
             a Unity játék Engine-nel készítettem el és a projekthez felhasználtam néhány a unity által 
             felkínált ingyenes assetet. A program működését fogom a következőkben elmagyarázni és demonstrálni. 
         </para>
+        
+        <mediaobject>
+                <imageobject>
+                    <imagedata fileref="blender.PNG" scale="20"/>
+                </imageobject>
+            </mediaobject>
+        <mediaobject>
+        
         <para>
             Először is az autó felépítését fogom elmagyarázni, majd annak működését. Az autónak a modellje, 
             amit a programban használok azt blenderben készítettem el. Ezt a modellt az autó objektumához
@@ -110,10 +118,26 @@
             pályán el vannak helyezve dobozok amelyek kordinátályát mindig leköveti és annak az irányába halad. 
             
             </para>
+        
+        <mediaobject>
+                <imageobject>
+                    <imagedata fileref="laptime.png" scale="20"/>
+                </imageobject>
+            </mediaobject>
+        <mediaobject>
+        
         <para>
             A versenyt megelőzve egy visszaszámlálás veszi kezdetét, ami akkor aktiválja az autók irányítását, amikor 
             a 3 másodperc letelt. Ezt a számlálást UI-ban megjelenítve látjuk.
         </para>
+            
+            <mediaobject>
+                <imageobject>
+                    <imagedata fileref="finished.png" scale="20"/>
+                </imageobject>
+            </mediaobject>
+        <mediaobject>
+            
         <para>
             A projektem részét képezi, idő mérése és a legjobb idő kiírása. Ez egy UI-ban van jelen a képernyőn, ami a verseny 
             kezdténél el kezd számolni és ha a finish line-t elérte, akkor teszteli a legjobb időt és újra indul a számláló.
@@ -122,6 +146,14 @@
             aktiválódik a "cél" triggerbox.
             
             </para>
+            
+            <mediaobject>
+                <imageobject>
+                    <imagedata fileref="position_lapcount.png" scale="20"/>
+                </imageobject>
+            </mediaobject>
+        <mediaobject>
+            
         <para>
             Ez után jön a lap counter. Ez számolja, hogy hány kört mentünk a játékon belül. Ez szintén a finish line triggerrel 
             aktiválódik. Ha eléri a 3-at akkor az autók irányítása inaktívra vált és egy "Finished" felirat jelenik meg a 
