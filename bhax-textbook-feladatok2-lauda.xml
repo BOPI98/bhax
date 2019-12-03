@@ -90,7 +90,49 @@
             felkínált ingyenes assetet. A program működését fogom a következőkben elmagyarázni és demonstrálni. 
         </para>
         <para>
+            Először is az autó felépítését fogom elmagyarázni, majd annak működését. Az autónak a modellje, 
+            amit a programban használok azt blenderben készítettem el. Ezt a modellt az autó objektumához
+            fogom csatolni külső megjelenés céljából. Az autó objektum főként a colliderekből, a player kamerából, 
+            a wheelcolliderekből és az autó modelljéből áll, de ezt még kiegészítettem lámpákkal és 
+            egyéb particle effectekkel. A fő objektum rendelkezik a car controller script-tel, és a user control
+            script-tel, ezekkel fogjuk irányítani az autót. Az autó irányításához fontosak a wheelcolliderek, melyet
+            mind a 4 kerék helyére beillesztünk. A jelenlegi projektben az autót irányító scriptek a unity 
+            standartd asset-ek része, így a feladat igényeit túlszárnyaló funkciók is megtalálhatóak, benne.
+            Ilyen funkció például a sebesség váltás és stb. Ennek következtében a script majdnem 400 soros,
+             ezért az irányításról csak a lényegesebb részeket említem meg. 
+            Az input alapvetően a user car control script-tel működik, itt a Unitynek előre beállított inputjait 
+            használva adjuk meg, hogy mivel mozogjon az autó. Ezt úgy kell elképzelni, hogy a horizontális és vertikális 
+            inputok a "WASD" és a nyíl billentyűkön vannak. Az előrehaladás egy move függvénnyel működik, ahol 
+            miközben előre halad az autó, a kerék mesh-ek forgatását számoljuk ki, és a kormányzástól függően az előrehaladás 
+            irányát kapjuk meg. Így az autó képes a mozgásra.
+            Az AI autó ugyanezen az elven működik, annyi különbséggel, hogy ott nem user input irányítja, hanem a CarAIControl.
+            Ez az asset, egy elég primitív ellenfélnek számít ugyanis mindig egy targetet követ. Ez azt jelenti, hogy a 
+            pályán el vannak helyezve dobozok amelyek kordinátályát mindig leköveti és annak az irányába halad. 
             
+            </para>
+        <para>
+            A versenyt megelőzve egy visszaszámlálás veszi kezdetét, ami akkor aktiválja az autók irányítását, amikor 
+            a 3 másodperc letelt. Ezt a számlálást UI-ban megjelenítve látjuk.
+        </para>
+        <para>
+            A projektem részét képezi, idő mérése és a legjobb idő kiírása. Ez egy UI-ban van jelen a képernyőn, ami a verseny 
+            kezdténél el kezd számolni és ha a finish line-t elérte, akkor teszteli a legjobb időt és újra indul a számláló.
+            Az időt három ui-ban jelenítem meg, perc másodperc és tizedmásodperc. A finish line egy triggerbox ami a verseny 
+            kezdetén helyezkedik el még inaktívan, mikor a másik a pálya felénél elhelyezett triggert eléri az autó, akkor 
+            aktiválódik a "cél" triggerbox.
+            
+            </para>
+        <para>
+            Ez után jön a lap counter. Ez számolja, hogy hány kört mentünk a játékon belül. Ez szintén a finish line triggerrel 
+            aktiválódik. Ha eléri a 3-at akkor az autók irányítása inaktívra vált és egy "Finished" felirat jelenik meg a 
+            képernyőn.
+            </para>
+        <para>
+            A következő elem a pozíció meghatározása volt. A pozíciót a program egy waypoint tracker script segítségével 
+            határozza meg, amely szintén a unity-asset-ek része. A script egy megadott görbén végig vezeti az adott 
+            autó teljesített távját és ezt egy floatban progressDistance néven el is tárolja. Ezt a változót mind a 
+            kettő autónál összehasonlítottam és amelyiknek nagyobb az értéke, az van az első helyen. Később ezt a pozíciót 
+            a verseny végén is megjeleníti a program.
             </para>
     </section>
         
