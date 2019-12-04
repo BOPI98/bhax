@@ -65,6 +65,10 @@ Gyors prototípus-fejlesztés Python és Java nyelven</title>
             hálózatkezelést segíti és kamera is elérhető. A sysinfo modullal a telefon adatait lekérdezhetjük, audio modul segítségével 
             pedig hangfelvételeket hozunk létre. Ezek mellett saját modult is létrehozhatunk melyet a programunkba importálhatunk.
             
+            A nyelv sajátosságai közé tartozik például az, hogy egy if utáni else függvényt elifként írjuk. A kiiratás és hasonló dolgok
+            viszont megközelítőleg hasonlóak a többi nyelvhet. A for ciklusnak két tagolása van, ami azt jelenti, hogy a ciklusnak 
+            azt kell megadni, hogy mely elemen menjen végig. Ezen felül pythonban def-fel hozunk létre, melyhez egy visszatérési érték 
+            tartozik. Osztályok létrehozása class kulcsszóval jön létre, melynek függvényei és attribútumai is lehetnek.
             
         </para>
      
