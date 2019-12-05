@@ -67,7 +67,10 @@ CustomAlloc-os példa, lásd C forrást az UDPROG repóban!
         </para>
         
         <para>
-            <programlisting>int main() {
+            <programlisting>
+                <![CDATA[
+                
+                int main() {
     std::vector &lt;int> v;
     return 0;
 }</programlisting>
@@ -131,6 +134,8 @@ int main()
     std::cout &lt;&lt; v.get_allocator().get_allocations() &lt;&lt; std::endl;
  
     return 0;
+                
+        ]]>
 }</programlisting>
 
             </para>
