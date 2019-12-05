@@ -92,6 +92,12 @@ public class PolarGen {
 }”]]></programlisting>
             </para>
         
+        <mediaobject>
+                <imageobject>
+                    <imagedata fileref="Polargen.png" scale="20"/>
+                </imageobject>
+            </mediaobject>
+        
     </section>        
 
     <section>
