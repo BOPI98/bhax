@@ -42,12 +42,12 @@ https://youtu.be/DL6iQwPx1Yw (8:05-től)
         <programlisting>
             <![CDATA[
             
-            std::sort (gangsters.begin(), gangsters.end(), [this, cop] (Gangster x, ←􏰀 Gangster y)
+            std::sort (gangsters.begin(), gangsters.end(), [this, cop] (Gangster x,  Gangster y)
 {
 return dst (cop, x.to) < dst (cop, y.to);
 });
                             
-               //void sort (RandomAccessIterator first, RandomAccessIterator last, Compare ←􏰀 comp);             
+               //void sort (RandomAccessIterator first, RandomAccessIterator last, Compare  comp);             
             
             
             ]]>
