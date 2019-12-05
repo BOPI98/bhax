@@ -30,7 +30,8 @@ https://youtu.be/DL6iQwPx1Yw (8:05-től)
         <programlisting>
             <![CDATA[
         [](int x, int y) { return x + y; }
-        ]]><programlisting>
+        ]]>
+         <programlisting>
         <para>
             A szögletes zárójelben jelzi az elkövetkezendő lambda kifejezést. 
             Ezt követi maga a törzse a függvénynek, ahol a returnból kapja meg az értéket és a típust.
@@ -51,7 +52,8 @@ return dst (cop, x.to) < dst (cop, y.to);
             
             ]]>
             </programlisting>
-    </section>        
+    
+            </section>        
 
     <section>
         <title>C++11 Custom Allocator</title>
