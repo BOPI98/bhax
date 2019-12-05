@@ -196,6 +196,11 @@ conditions-t! https://en.wikipedia.org/wiki/Yoda_conditions
             az angol verzióban érezhető, mivel a magyar nyelvű filmekben más a szinkron. Ennek a stílusnak nem igazán van sok 
             előnye viszont kritikusok szerint elég rosszul olvasható és értelmezhető egy ilyen kód.
         </para>
+        <mediaobject>
+                <imageobject>
+                    <imagedata fileref="yoda.png" scale="20"/>
+                </imageobject>
+            </mediaobject>
     </section>
     
     <section>
