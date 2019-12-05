@@ -35,14 +35,19 @@ https://youtu.be/DL6iQwPx1Yw (8:05-től)
             az elkapott rendőr objekthez mint az y akkor igaz lesz. Rendezés után a rendőrhöz legközelebbi gengszter kerül a vektor elejére.
             
             </para>
-        <para>
+        <programlisting>
+            <![CData[
+            
             std::sort (gangsters.begin(), gangsters.end(), [this, cop] (Gangster x, ←􏰀 Gangster y)
 {
 return dst (cop, x.to) < dst (cop, y.to);
 });
                             
                //void sort (RandomAccessIterator first, RandomAccessIterator last, Compare ←􏰀 comp);             
-            </para>
+            
+            
+            ]]>
+            </programlisting>
     </section>        
 
     <section>
