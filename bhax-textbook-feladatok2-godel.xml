@@ -23,11 +23,14 @@ https://youtu.be/DL6iQwPx1Yw (8:05-től)
         <para>
             Tanulságok, tapasztalatok, magyarázat... : A robotautó alapvetően egy olyan program
             aminek a célja a forgalomirányítás szimulációja. A programban egy "gengszter"-t 
-            követ egy rendőr(cop). Általános alak: [](int x, int y) { return x + y; }
+            követ egy rendőr(cop). Általános alak: 
             
             
         </para>
-        
+        <programlisting>
+            <![CDATA[
+        [](int x, int y) { return x + y; }
+        ]]><programlisting>
         <para>
             A szögletes zárójelben jelzi az elkövetkezendő lambda kifejezést. 
             Ezt követi maga a törzse a függvénynek, ahol a returnból kapja meg az értéket és a típust.
