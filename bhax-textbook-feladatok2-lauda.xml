@@ -95,7 +95,7 @@
                     <imagedata fileref="blender.PNG" scale="20"/>
                 </imageobject>
             </mediaobject>
-        <mediaobject>
+        
         
         <para>
             Először is az autó felépítését fogom elmagyarázni, majd annak működését. Az autónak a modellje, 
@@ -124,7 +124,7 @@
                     <imagedata fileref="laptime.png" scale="20"/>
                 </imageobject>
             </mediaobject>
-        <mediaobject>
+        
         
         <para>
             A versenyt megelőzve egy visszaszámlálás veszi kezdetét, ami akkor aktiválja az autók irányítását, amikor 
@@ -136,7 +136,7 @@
                     <imagedata fileref="finished.png" scale="20"/>
                 </imageobject>
             </mediaobject>
-        <mediaobject>
+        
             
         <para>
             A projektem részét képezi, idő mérése és a legjobb idő kiírása. Ez egy UI-ban van jelen a képernyőn, ami a verseny 
@@ -152,7 +152,7 @@
                     <imagedata fileref="position_lapcount.png" scale="20"/>
                 </imageobject>
             </mediaobject>
-        <mediaobject>
+        
             
         <para>
             Ez után jön a lap counter. Ez számolja, hogy hány kört mentünk a játékon belül. Ez szintén a finish line triggerrel 
