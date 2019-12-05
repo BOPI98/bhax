@@ -31,7 +31,7 @@ https://arato.inf.unideb.hu/batfai.norbert/UDPROG/deprecated/Prog1_6.pdf (28-32 
         
         <mediaobject>
                 <imageobject>
-                    <imagedata fileref="/Mandelbrot/uml_binfa.PNG" scale="20"/>
+                    <imagedata fileref="prog2_feladatok/Mandelbrot/uml_binfa.PNG" scale="20"/>
                 </imageobject>
             </mediaobject>
         
@@ -55,7 +55,7 @@ https://arato.inf.unideb.hu/batfai.norbert/UDPROG/deprecated/Prog1_6.pdf (28-32 
         
         <mediaobject>
                 <imageobject>
-                    <imagedata fileref="Mandelbrot/Forward/forward.PNG" scale="20"/>
+                    <imagedata fileref="prog2_feladatok/Mandelbrot/Forward/forward.PNG" scale="20"/>
                 </imageobject>
             </mediaobject>
         
