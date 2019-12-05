@@ -53,7 +53,7 @@ return dst (cop, x.to) < dst (cop, y.to);
             ]]>
             </programlisting>
     
-            </section>        
+ </section>        
 
     <section>
         <title>C++11 Custom Allocator</title>
@@ -76,7 +76,7 @@ CustomAlloc-os példa, lásd C forrást az UDPROG repóban!
             az előnye, hogy egyedi mutatókat és referenciákat lehetett használni. 
         </para>
         
-        <para>
+        
             <programlisting>
                 <![CDATA[
                 
@@ -86,7 +86,7 @@ CustomAlloc-os példa, lásd C forrást az UDPROG repóban!
 }
 ]]>
 </programlisting>
-        </para>
+        
 
         <para>
             A következő program egy alapértelmezett allocatort használ és ezzel hozunk létre egy egyedi allokátort. A példában pedig 
