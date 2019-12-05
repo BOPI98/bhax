@@ -124,6 +124,13 @@ Miután már áttettük Java nyelvre, tegyük be egy Java Servletbe és a böng�
             a részletek megtalálhatóak. C++ nyelvről az átírása abban nyílvánul meg, hogy a pointereket, referenciákat a 
             java kódból mellőzni kell. Ezek mellett a java kód struktúrájának megfelelően kell a programot átalakítani.
          </para>
+        
+        <mediaobject>
+                <imageobject>
+                    <imagedata fileref="servlet.png" scale="20"/>
+                </imageobject>
+            </mediaobject>
+        
         <para>
         A feladat arról szól, hogy a binfát le lehessen kérni böngészőből a GET kéréssel. Ez a Java Servlettel működik eclipse-el és 
             Tomcat szerverrel. GET-tel létrejön a binfa objektum, az input szövegből elkészül a bemeneti bináris kód és felépül belőle 
