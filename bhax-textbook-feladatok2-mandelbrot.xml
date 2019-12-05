@@ -28,6 +28,13 @@ https://arato.inf.unideb.hu/batfai.norbert/UDPROG/deprecated/Prog1_6.pdf (28-32 
             után importálhatjuk a c++ programunkat az import wizard segítségével. Az importálás után, már csak annyi dolgunk van, hogy
             az osztályokat behúzzuk a rajzterületre és automatikusan elkészül a diagram, kapcsolatokkal együtt.
         </para>
+        
+        <mediaobject>
+                <imageobject>
+                    <imagedata fileref="/Mandelbrot/uml_binfa.PNG" scale="20"/>
+                </imageobject>
+            </mediaobject>
+        
     </section>        
 
     <section>
@@ -45,6 +52,13 @@ https://arato.inf.unideb.hu/batfai.norbert/UDPROG/deprecated/Prog1_6.pdf (28-32 
             Ezt szintén meg lehet csinálni umbrello-val, de más program is alkalmas rá. Umbrelloban a code fül alatt található 
             code generation wizard segítségével a meglévő objektumokat kóddá lehet konvertálni a megadott helyre. 
         </para>
+        
+        <mediaobject>
+                <imageobject>
+                    <imagedata fileref="Mandelbrot/Forward/forward.PNG" scale="20"/>
+                </imageobject>
+            </mediaobject>
+        
     </section>       
     
     <section>
