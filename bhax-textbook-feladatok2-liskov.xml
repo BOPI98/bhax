@@ -71,6 +71,13 @@ keresztül csak az ős üzenetei küldhetőek!
             akarját használni, viszont a fán felfele haladva (gyereken keresztül szülő metódusait) lehet használni.
             
         </para>
+        
+        <mediaobject>
+                <imageobject>
+                    <imagedata fileref="szulogyerek.png" scale="20"/>
+                </imageobject>
+            </mediaobject>
+        
     </section>  
     
      <section>
@@ -131,6 +138,12 @@ https://www.tankonyvtar.hu/hu/tartalom/tkt/javat-tanitok-javat/apas03.html#id561
                 </tbody>
             </table>
 
+         <para>
+             ahoz, hogy c# kódot tudjunk futtatni le kell tölteni a dotnet sdk-t ubuntun apt install dotnet-sdk-3.0 parancsal,
+             mac-en alkalmasnak találtam a program fordításához a mono parancsot.
+             
+             </para>
+         
     </section>  
     
      <section>
