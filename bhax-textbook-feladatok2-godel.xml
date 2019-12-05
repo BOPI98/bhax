@@ -36,7 +36,7 @@ https://youtu.be/DL6iQwPx1Yw (8:05-től)
             
             </para>
         <programlisting>
-            <![CData[
+            <![CDATA[
             
             std::sort (gangsters.begin(), gangsters.end(), [this, cop] (Gangster x, ←􏰀 Gangster y)
 {
@@ -78,7 +78,9 @@ CustomAlloc-os példa, lásd C forrást az UDPROG repóban!
                 int main() {
     std::vector &lt;int> v;
     return 0;
-}</programlisting>
+}
+]]>
+</programlisting>
         </para>
 
         <para>
@@ -87,7 +89,9 @@ CustomAlloc-os példa, lásd C forrást az UDPROG repóban!
             </para>
         <para>
             
-            <programlisting>#include &lt;iostream>
+            <programlisting>
+<![CDATA[
+#include &lt;iostream>
 #include &lt;limits>
 #include &lt;memory>
 #include &lt;vector>
