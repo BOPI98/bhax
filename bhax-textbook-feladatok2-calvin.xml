@@ -64,12 +64,37 @@ https://progpater.blog.hu/2016/12/10/hello_samu_a_cifar-10_tf_tutorial_peldabol
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...: A CIFAR-10 egy MNIST-hez hasonló program, mivel a célja ugyanaz, annyi
+            Tanulságok, tapasztalatok, magyarázat...: A feladat a CIFAR-10-et másnéven a Canadian
+            Institute For Advanced Research-t mutatja be, ami egy machine learningre
+            használt adatbázis.
+            Ez az egyik leggyakrabban használt gépi tanuló adatbázis. 
+            A CIFAT-10 60000 darab 32x32-es képet tud eltárolni. A program olyan tárgyakat tud 
+            felismerni, mint például egy autó, kutya, macska, hajó, repülő és stb.
+            A CIFAR-10 egy MNIST-hez hasonló program, mivel a célja ugyanaz, annyi
             különbséggel, hogy ez a program tárgyakról készült képeket fog felismerni. A machine learning az előző
-            feladat mintájára tensorflow-val készült. A program RGB gépeket fog vizsgálni, a proram 10 féle tárgyat tud felismerni
+            feladat mintájára tensorflow-val készült. A program RGB gépeket fog vizsgálni, a program 10 féle tárgyat tud felismerni
             . Saját kép felismeréségez egy programmal kompatibilissé kell tenni a programhoz.
             
         </para>
+        
+        <programlisting><![CDATA[
+from PIL import Image
+import numpy as np
+import sys
+im = Image.open(sys.argv[1]) im = (np.array(im))
+r = im[:,:,0].flatten() g = im[:,:,1].flatten() b = im[:,:,2].flatten() label = [0]
+out = np.array(list(label) + list(r) + list(g) + list(b),np.uint8) out.tofile("./cifar10_data/cifar-10-batches-bin/" + sys.argv[2])
+        
+
+]]></programlisting>
+        <para>
+            A fenti kódcsipettel bináris alakra hozhatjuk a képet, ezáltal 
+            kompatibilis lesz a programhoz.Ezután a kép nevét megadjuk paraméterbe
+            , majd beírjuk a képarányt. A programban még annyit kell
+            változtatni, hogy input.binre át kell írni a test_bach.bint.
+            Ha egy képet ismerünk fel akkor a cifar10.py-ban a batch sizeot 1re
+            kell átírni.
+            </para>
     </section>  
     
     <section>
