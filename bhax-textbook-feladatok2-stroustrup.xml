@@ -53,8 +53,79 @@
             Tanulságok, tapasztalatok, magyarázat... : Ez a feladat már egy korábbi feladatban részletezve van, magyarázattal. 
             A kódok az lzw binfának a másoló konstuktora és az értékadása, mely arra szolgál, hogy egy binfát lemásoljunk. 
             A mozgató értékadás a két fa gyökerét cseréli meg, amelynek az az előnye, hogy a memóriában az adatok helye 
-            egy helyen marad, a másik binfa adatai automatikusan törlődnek.
+            egy helyen marad, a másik binfa adatai automatikusan törlődnek. 
+            A bal értékű referenciát a kapcsolat az =-höz köti, mert ezeknek a kifejezéseknek értéket tud adni.
+            A jobb értékadás ebből következően minden olyan kifejezés, amit értékül tud adni. A másoló konstruktor
+            és az értékadás mind a két baloldalit, de a mozgatók jobboldali referenciát kérnek paraméterként.
+            A másoló konstruktor csak a sima sekély másolást engedi, a mélyet meg kell írni.
+            
         </para>
+        
+        <programlisting>
+            <![CDATA[
+
+LZWBinFa ( const LZWBinFa & regi ) {
+std::cout << "LZWBinFa copy ctor called" << std::endl;
+gyoker = masol(regi.gyoker, regi.fa);
+}
+Kisebb programokban elég a
+*this=regi;
+Meghívása a mainben:
+LZWBinFa binFa3(binFa);
+
+]]></programlisting>
+        
+        <para>
+            A kódcsipetben látható, hogy a mélymásolást meghívja a konstruktor, ezzel duplikálva az objektumot.
+            A lefoglalt memóriaterületre pedig létrehozzuk a binfa3-at az eredetiből.
+            </para>
+        
+        <programlisting><![CDATA[
+        LZWBinFa& operator= ( const LZWBinFa & regi )
+{
+std::cout << "LZWBinFa copy assignment" << std::endl;
+gyoker->balNulla = masol ( regi.gyoker->balNulla, regi.fa ←-
+) ;
+gyoker->jobbEgy = masol ( regi.gyoker->jobbEgy, regi.fa ) ←-
+;
+if ( regi.fa == regi.gyoker)
+fa = gyoker;
+return *this;
+}
+meghívása például
+binfa4=binfa3;
+]]></programlisting>
+        
+        <para>
+            Ez a kódcsipet tulajdonképpen végrehajt egy sekély másolást, ami azt takarja, hogy ugyan arra a  
+            tároló egységre hivatkozik a másolt objektum mint az eredeti. Ennek csak annyi a hátulütője, hogy ha 
+            az egyik módosul akkor minden módosul.
+            </para>
+        
+        <![CDATA[
+LZWBinFa (LZWBinFa && regi ){
+std::cout<<"LZWBinFa move ctor called"<<std::endl;
+gyoker = nullptr;
+*this = std::move(regi);
+}
+meghívása mainben például:
+LZWBinFa binfa5(std::move(binfa3));
+LZWBinFa & operator= (LZWBinFa && regi){
+std::swap(gyoker, regi.gyoker);
+std::cout << "LZWBinFa move assignment" << std::endl;
+return *this;
+}
+meghívása mainben példa:
+binFa2=std::move(binFa);
+]]></programlisting>
+    <para>
+        Az alábbi kód a mozgató konstruktor értékadás. Ennek a lényege, hogy az erőforrást átcsoportosítjuk. 
+        Így az az objektum amiből mozgatunk az üres lesz az új pedig feltöltődik az adattal, magyarán 
+        átmozgattuk az adatot.
+        </para>
+
+
+        
     </section> 
     
     <section>
@@ -95,6 +166,25 @@
             A program többi részében az új adatokkal a png++ segítségével elkészül az új png kép. 
             
         </para>
+        
+        <mediaobject>
+                <imageobject>
+                    <imagedata fileref="pic.png" scale="30"/>
+                </imageobject>
+            </mediaobject>
+        
+        <para>
+            eredeti kép
+            </para>
+        
+        <mediaobject>
+                <imageobject>
+                    <imagedata fileref="generated.png" scale="30"/>
+                </imageobject>
+            </mediaobject>
+        <para>
+            generált kép
+            </para>
     </section> 
     
     <section>
