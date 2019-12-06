@@ -47,6 +47,20 @@ Itt láthatjuk működésben az alapot: https://www.twitch.tv/videos/222879467
             
         </para>
         
+        <programlisting>
+            <![CDATA[
+std::vector<justine::sampleclient::MyShmClient::Gangster> ←-
+justine::sampleclient::MyShmClient::gangsters ( boost::asio ←-
+::ip::tcp::socket & socket, int id,
+osmium::unsigned_object_id_type cop )
+while ( std::sscanf ( data+nn, "<OK %d %u %u %u>%n", &idd, &f, ←-
+&t, &s, &n ) == 4 )
+{
+nn += n;
+gangsters.push_back ( Gangster {idd, f, t, s} );
+}
+]]></programlisting>
+        
     </section>   
     
     <section>
@@ -91,7 +105,13 @@ https://github.com/nbatfai/SamuCam
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...: A programban az objektumok közötti kommunikációt a 
+            Tanulságok, tapasztalatok, magyarázat...: A brainb egy képességfelmérésről szóló program, ami azt méri
+            , hogy egy objektumot milyen pontossággal tud lekövetni a játékos. A program futása során az egerünket 
+            egy konkrét objektumon kell tartani, miközben több másik is mejelenik a képernyőn. 
+            Ezt a folyamatot 10 percig kell csinálnia az alanynak. Ezután a program kiirja az eredményt.
+            
+            
+            A programban az objektumok közötti kommunikációt a 
             qt slot signallal hozzuk létre. A függvény akkor lesz meghívva, ha egy esemény bekövetkezik, 
             amiről a kód küld egy emitet, amikből a megfelelőt befogja a connect. 
             A SIGNAL() függvényben megadjuk, hogy a heroesChanged jeltől milyen paramétert várunk. 
@@ -101,6 +121,33 @@ https://github.com/nbatfai/SamuCam
             
             
         </para>
+        
+        <programlisting><![CDATA[
+void heroesChanged ( const QImage &image, const int &x, const int &y );
+void endAndStats ( const int &t );
+]]></programlisting>
+        <para>
+            Az alábbi kódcsipetben a két void közül az első az amikor az objektum mozog.
+            A másik pedig az a függvény ami kiírja az eredményt a programfutása végén.
+            Signal hívásnál érdemes az emit-et használni egyszerűség szempontjából.
+            
+            </para>
+        
+        <programlisting><![CDATA[
+emit heroesChanged ( dest, heroes[0].x, heroes[0].y );
+emit endAndStats ( endTime );
+]]><programlisting>
+            <para>
+                A signal a connect-el fog kapcsolódni a slothoz, ezt a signalt akkor kell meghívni, ha egy signal bekövetkezik.
+                Az alábbi kódban mint látszik a slotnak és signaloknak a felépítésének meg kell egyezniük.
+                </para>
+            
+        <programlisting><![CDATA[
+connect ( brainBThread, SIGNAL ( heroesChanged ( QImage, int, int ) ),
+this, SLOT ( updateHeroes ( QImage, int, int ) ) );
+connect ( brainBThread, SIGNAL ( endAndStats ( int ) ),
+this, SLOT ( endAndStats ( int ) ) );
+]]><programlisting>
     </section>
     
     <section>
