@@ -46,7 +46,9 @@ CustomAlloc-os példa, lásd C forrást az UDPROG repóban!
             Megoldás forrása:                
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+            Tanulságok, tapasztalatok, magyarázat...: A feladat a korábbi MNIST feladatra épül annyi különbséggel, hogy
+            itt mély tanulásról van szó. Több rétegű szűrésen megy keresztül a tanulás, ami persze jóval több időbe 
+            telik mint az előzö feladat esetében. A tanulási folyamat akár több órára is elhúzódhat.
         </para>
     </section>   
     
