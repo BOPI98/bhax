@@ -160,7 +160,7 @@ binFa2=std::move(binFa);
             Megoldás videó:
         </para>
         <para>
-            Megoldás forrása:                
+            Megoldás forrása:    <link xlink:href="https://github.com/BOPI98/prog2_feladatok/blob/master/Stroustrup/perceptron.cpp">link</link>          
         </para>
         <para>
             Tanulságok, tapasztalatok, magyarázat... : A feladat egy már korábban elkészült feladatra épül, amely egy png kép 
