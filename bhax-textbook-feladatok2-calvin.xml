@@ -95,6 +95,12 @@ out = np.array(list(label) + list(r) + list(g) + list(b),np.uint8) out.tofile(".
             Ha egy képet ismerünk fel akkor a cifar10.py-ban a batch sizeot 1re
             kell átírni.
             </para>
+        <mediaobject>
+            <imageobject>
+                <imagedata fileref="cifar10.jpg" scale="30"/>
+                </imageobject>
+            <mediaobject>
+        
     </section>  
     
     <section>
