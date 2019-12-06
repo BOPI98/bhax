@@ -80,7 +80,8 @@ LZWBinFa binFa3(binFa);
             A lefoglalt memóriaterületre pedig létrehozzuk a binfa3-at az eredetiből.
             </para>
         
-        <programlisting><![CDATA[
+        <programlisting>
+            <![CDATA[
         LZWBinFa& operator= ( const LZWBinFa & regi )
 {
 std::cout << "LZWBinFa copy assignment" << std::endl;
@@ -94,7 +95,8 @@ return *this;
 }
 meghívása például
 binfa4=binfa3;
-]]></programlisting>
+]]>
+        </programlisting>
         
         <para>
             Ez a kódcsipet tulajdonképpen végrehajt egy sekély másolást, ami azt takarja, hogy ugyan arra a  
@@ -102,7 +104,8 @@ binfa4=binfa3;
             az egyik módosul akkor minden módosul.
             </para>
         
-        <![CDATA[
+        <programlisting>
+            <![CDATA[
 LZWBinFa (LZWBinFa && regi ){
 std::cout<<"LZWBinFa move ctor called"<<std::endl;
 gyoker = nullptr;
@@ -117,7 +120,8 @@ return *this;
 }
 meghívása mainben példa:
 binFa2=std::move(binFa);
-]]></programlisting>
+]]>
+        </programlisting>
     <para>
         Az alábbi kód a mozgató konstruktor értékadás. Ennek a lényege, hogy az erőforrást átcsoportosítjuk. 
         Így az az objektum amiből mozgatunk az üres lesz az új pedig feltöltődik az adattal, magyarán 
