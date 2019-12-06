@@ -68,6 +68,7 @@ https://progpater.blog.hu/2016/12/10/hello_samu_a_cifar-10_tf_tutorial_peldabol
             különbséggel, hogy ez a program tárgyakról készült képeket fog felismerni. A machine learning az előző
             feladat mintájára tensorflow-val készült. A program RGB gépeket fog vizsgálni, a proram 10 féle tárgyat tud felismerni
             . Saját kép felismeréségez egy programmal kompatibilissé kell tenni a programhoz.
+            
         </para>
     </section>  
     
