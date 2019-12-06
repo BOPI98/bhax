@@ -136,7 +136,7 @@ void endAndStats ( const int &t );
         <programlisting><![CDATA[
 emit heroesChanged ( dest, heroes[0].x, heroes[0].y );
 emit endAndStats ( endTime );
-]]><programlisting>
+]]></programlisting>
             <para>
                 A signal a connect-el fog kapcsolódni a slothoz, ezt a signalt akkor kell meghívni, ha egy signal bekövetkezik.
                 Az alábbi kódban mint látszik a slotnak és signaloknak a felépítésének meg kell egyezniük.
@@ -147,7 +147,7 @@ connect ( brainBThread, SIGNAL ( heroesChanged ( QImage, int, int ) ),
 this, SLOT ( updateHeroes ( QImage, int, int ) ) );
 connect ( brainBThread, SIGNAL ( endAndStats ( int ) ),
 this, SLOT ( endAndStats ( int ) ) );
-]]><programlisting>
+]]></programlisting>
     </section>
     
     <section>
