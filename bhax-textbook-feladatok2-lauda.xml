@@ -65,7 +65,7 @@
     </section>
     
     <section>
-        <title>OSCI2</title>
+        <title>OSCI2 (kék feladat az e hetit kiváltva)</title>
         <para>
             Készíts egyszerű C++/OpenGL-es megjelenítőt, amiben egy kocsit 
             irányítasz az úton. A kocsi állapotát minden pillanatban mentsd 
