@@ -184,6 +184,8 @@ int main()
             határoz meg, amiket elemtartományokhoz hoztak létre. Ez biztosít eszközöket a konténerekhez, a műveletek érdekében, például a sort vagy search.
             Az stl tartalmaz olyan osztályokat, melyek leterhelik a funkcióhívó operátort, ezt hívjuk függvényobjektumoknak. Átaott paraméterekkel
             a funkciók lehetővé teszik a kapcsoló funkciók működését.
+            
+            
         </para>
     </section>  
     
