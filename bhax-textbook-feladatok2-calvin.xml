@@ -99,7 +99,7 @@ out = np.array(list(label) + list(r) + list(g) + list(b),np.uint8) out.tofile(".
             <imageobject>
                 <imagedata fileref="cifar10.jpg" scale="30"/>
                 </imageobject>
-            <mediaobject>
+            </mediaobject>
         
     </section>  
     
